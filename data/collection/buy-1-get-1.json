@@ -1,0 +1,356 @@
+{
+    "collection": {
+        "title": "Buy 1 Get 1",
+        "description": "",
+        "totalProducts": 5,
+        "productsPerPage": 20
+    },
+    "filters": {
+        "availability": [
+            {
+                "id": "in-stock",
+                "label": "In stock",
+                "count": 4,
+                "value": "1"
+            },
+            {
+                "id": "out-of-stock",
+                "label": "Out of stock",
+                "count": 1,
+                "value": "0"
+            }
+        ],
+        "productTypes": [
+            {
+                "id": "kimono",
+                "label": "Kimono",
+                "count": 1,
+                "value": "Kimono"
+            },
+            {
+                "id": "nappies",
+                "label": "Nappies",
+                "count": 1,
+                "value": "Nappies"
+            },
+            {
+                "id": "napkins",
+                "label": "Napkins",
+                "count": 1,
+                "value": "Napkins"
+            },
+            {
+                "id": "shirt-shorts-set",
+                "label": "Shirt & Shorts Set",
+                "count": 1,
+                "value": "Shirt & Shorts Set"
+            },
+            {
+                "id": "jhabla",
+                "label": "Jhabla",
+                "count": 1,
+                "value": "Jhabla"
+            }
+        ],
+        "brands": [
+            {
+                "id": "moms-home",
+                "label": "Moms Home",
+                "count": 5,
+                "value": "Moms Home"
+            }
+        ],
+        "ageGroups": [
+            {
+                "id": "0-3-months",
+                "label": "0-3 Months",
+                "count": 2,
+                "value": "0-3 Months"
+            },
+            {
+                "id": "3-6-months",
+                "label": "3-6 Months",
+                "count": 2,
+                "value": "3-6 Months"
+            },
+            {
+                "id": "6-12-months",
+                "label": "6-12 Months",
+                "count": 4,
+                "value": "6-12 Months"
+            },
+            {
+                "id": "12-18-months",
+                "label": "12-18 Months",
+                "count": 2,
+                "value": "12-18 Months"
+            },
+            {
+                "id": "12-24-months",
+                "label": "12-24 Months",
+                "count": 2,
+                "value": "12-24 Months"
+            },
+            {
+                "id": "24-36-months",
+                "label": "24-36 Months",
+                "count": 3,
+                "value": "24-36 Months"
+            }
+        ],
+        "designs": [
+            {
+                "id": "lion-whale",
+                "label": "Lion & Whale",
+                "count": 1,
+                "value": "Lion & Whale"
+            },
+            {
+                "id": "icecream-monkey",
+                "label": "Icecream & Monkey",
+                "count": 1,
+                "value": "Icecream & Monkey"
+            },
+            {
+                "id": "whale-dino",
+                "label": "Whale & Dino",
+                "count": 1,
+                "value": "Whale & Dino"
+            }
+        ]
+    },
+    "sortOptions": [
+        {
+            "value": "manual",
+            "label": "Featured"
+        },
+        {
+            "value": "best-selling",
+            "label": "Best selling"
+        },
+        {
+            "value": "title-ascending",
+            "label": "Alphabetically, A-Z"
+        },
+        {
+            "value": "title-descending",
+            "label": "Alphabetically, Z-A"
+        },
+        {
+            "value": "price-ascending",
+            "label": "Price, low to high"
+        },
+        {
+            "value": "price-descending",
+            "label": "Price, high to low"
+        },
+        {
+            "value": "created-ascending",
+            "label": "Date, old to new"
+        },
+        {
+            "value": "created-descending",
+            "label": "Date, new to old"
+        }
+    ],
+    "products": [
+        {
+            "id": 10112978649369,
+            "handle": "kids-organic-cotton-front-open-kimono-buy-1-get-1-free-1",
+            "title": "Kids Organic Cotton Front Open Kimono | Buy 1 Get 1 Free",
+            "image": "//www.momshome.in/cdn/shop/files/1500_x_1500_px_533x.jpg?v=1758979902",
+            "price": 39900,
+            "compare_at_price": 99900,
+            "available": true,
+            "discount": 60,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51427214524697,
+                    "title": "6-12 Months",
+                    "price": 39900,
+                    "compare_at_price": 99900,
+                    "available": false,
+                    "sku": "MHKIMONOPNKSOLID6TO12B1G1"
+                },
+                {
+                    "id": 51427214557465,
+                    "title": "12-18 Months",
+                    "price": 39900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHKIMONOPNKSOLID12TO18B1G1"
+                },
+                {
+                    "id": 51427214590233,
+                    "title": "24-36 Months",
+                    "price": 39900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHKIMONOPNKSOLID2TO3B1G1"
+                }
+            ]
+        },
+        {
+            "id": 8838002540825,
+            "handle": "baby-organic-cotton-printed-muslin-nappies-pack-of-3-mix-3",
+            "title": "Baby Printed Muslin Nappies | Mixed Design | Buy 3 Get 3 Free",
+            "image": "//www.momshome.in/cdn/shop/files/B1G1_18_533x.jpg?v=1729346881",
+            "price": 59900,
+            "compare_at_price": 129900,
+            "available": true,
+            "discount": 54,
+            "rating": 5.0,
+            "reviewCount": 1,
+            "variants": [
+                {
+                    "id": 47168345112857,
+                    "title": "0-3 Months",
+                    "price": 59900,
+                    "compare_at_price": 129900,
+                    "available": true,
+                    "sku": "MHMUSNAPPIESP30TO3B3G3"
+                },
+                {
+                    "id": 47168345145625,
+                    "title": "3-6 Months",
+                    "price": 59900,
+                    "compare_at_price": 129900,
+                    "available": true,
+                    "sku": "MHMUSNAPPIESP33TO6B3G3"
+                },
+                {
+                    "id": 47168345178393,
+                    "title": "6-12 Months",
+                    "price": 59900,
+                    "compare_at_price": 129900,
+                    "available": true,
+                    "sku": "MHMUSNAPPIESP36TO12B3G3"
+                }
+            ]
+        },
+        {
+            "id": 6811955855445,
+            "handle": "baby-muslin-6-layer-face-wipes-wash-clothes-30x30-cm-0-3-years-pack-of-3",
+            "title": "Baby Muslin Napkins | 0-3 Yrs | Buy 3 Get 3 Free",
+            "image": "//www.momshome.in/cdn/shop/files/muslin_wash_cloth_533x.png?v=1745655382",
+            "price": 49900,
+            "compare_at_price": 89900,
+            "available": false,
+            "discount": 44,
+            "rating": 4.5,
+            "reviewCount": 2,
+            "variants": [
+                {
+                    "id": 40219279687765,
+                    "title": "Default Title",
+                    "price": 49900,
+                    "compare_at_price": 89900,
+                    "available": false,
+                    "sku": "MHMUSWIPESP3B1G1"
+                }
+            ]
+        },
+        {
+            "id": 9627917811993,
+            "handle": "kids-organic-cotton-muslin-co-ord-set-shirt-shorts-buy-1-get-1-free",
+            "title": "Kids Organic Cotton Muslin Co-Ord Set | Shirt & Shorts | Buy 1 Get 1 Free",
+            "image": "//www.momshome.in/cdn/shop/files/B1G1_4_533x.jpg?v=1729345732",
+            "price": 99900,
+            "compare_at_price": 149900,
+            "available": true,
+            "discount": 33,
+            "rating": 4.0,
+            "reviewCount": 1,
+            "variants": [
+                {
+                    "id": 49435506999577,
+                    "title": "Lion & Whale / 12-24 Months",
+                    "price": 99900,
+                    "compare_at_price": 149900,
+                    "available": true,
+                    "sku": "MHSHIRTSHORTLIONWHLE1TO2YB1G1"
+                },
+                {
+                    "id": 49435507032345,
+                    "title": "Lion & Whale / 24-36 Months",
+                    "price": 99900,
+                    "compare_at_price": 149900,
+                    "available": true,
+                    "sku": "MHSHIRTSHORTLIONWHLE2TO3YB1G1"
+                },
+                {
+                    "id": 49441221902617,
+                    "title": "Icecream & Monkey / 12-24 Months",
+                    "price": 99900,
+                    "compare_at_price": 149900,
+                    "available": true,
+                    "sku": "MHSHIRTSHORTICEMONKY1TO2YB1G1"
+                },
+                {
+                    "id": 49441221935385,
+                    "title": "Icecream & Monkey / 24-36 Months",
+                    "price": 99900,
+                    "compare_at_price": 149900,
+                    "available": true,
+                    "sku": "MHSHIRTSHORTICEMONKY2TO3YB1G1"
+                },
+                {
+                    "id": 49441221968153,
+                    "title": "Whale & Dino / 12-24 Months",
+                    "price": 99900,
+                    "compare_at_price": 149900,
+                    "available": true,
+                    "sku": "MHSHIRTSHORTWHLEDINO1TO2YB1G1"
+                },
+                {
+                    "id": 49441222000921,
+                    "title": "Whale & Dino / 24-36 Months",
+                    "price": 99900,
+                    "compare_at_price": 149900,
+                    "available": true,
+                    "sku": "MHSHIRTSHORTWHLEDINO2TO3YB1G1"
+                }
+            ]
+        },
+        {
+            "id": 9624848335129,
+            "handle": "baby-organic-cotton-knot-type-jhabla-buy-1-get-1-free",
+            "title": "Baby Organic Cotton Knot type Jhabla | Buy 1 Get 1 Free",
+            "image": "//www.momshome.in/cdn/shop/files/B1G1_2_1_533x.jpg?v=1729346352",
+            "price": 39900,
+            "compare_at_price": 59900,
+            "available": true,
+            "discount": 33,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 49429835874585,
+                    "title": "0-3 Months",
+                    "price": 39900,
+                    "compare_at_price": 59900,
+                    "available": true,
+                    "sku": "MHKNOTJBLA0TO3BLOM&BLOSMB1G1"
+                },
+                {
+                    "id": 49429835907353,
+                    "title": "3-6 Months",
+                    "price": 39900,
+                    "compare_at_price": 59900,
+                    "available": true,
+                    "sku": "MHKNOTJBLA3TO6BLOM&BLOSMB1G1"
+                },
+                {
+                    "id": 49429835940121,
+                    "title": "6-12 Months",
+                    "price": 39900,
+                    "compare_at_price": 59900,
+                    "available": true,
+                    "sku": "MHKNOTJBLA6TO12BLOM&BLOSMB1G1"
+                }
+            ]
+        }
+    ]
+}

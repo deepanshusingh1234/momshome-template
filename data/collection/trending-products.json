@@ -1,0 +1,381 @@
+{
+    "collection": {
+        "title": "Trending Products",
+        "description": "Most popular products loved by parents",
+        "totalProducts": 8,
+        "productsPerPage": 20
+    },
+    "filters": {
+        "availability": [
+            {
+                "id": "in-stock",
+                "label": "In stock",
+                "count": 7,
+                "value": "1"
+            },
+            {
+                "id": "out-of-stock",
+                "label": "Out of stock",
+                "count": 1,
+                "value": "0"
+            }
+        ],
+        "productTypes": [
+            {
+                "id": "gift-hamper",
+                "label": "Gift Hamper",
+                "count": 6,
+                "value": "Gift Hamper"
+            },
+            {
+                "id": "baby-quilt",
+                "label": "Baby Quilt",
+                "count": 1,
+                "value": "Baby Quilt"
+            },
+            {
+                "id": "clothing-set",
+                "label": "Clothing Set",
+                "count": 1,
+                "value": "Clothing Set"
+            }
+        ],
+        "brands": [
+            {
+                "id": "moms-home",
+                "label": "Moms Home",
+                "count": 8,
+                "value": "Moms Home"
+            }
+        ],
+        "designs": [
+            {
+                "id": "avocado",
+                "label": "Avocado",
+                "count": 2,
+                "value": "Avocado"
+            },
+            {
+                "id": "lemon",
+                "label": "Lemon",
+                "count": 2,
+                "value": "Lemon"
+            },
+            {
+                "id": "tiger",
+                "label": "Tiger",
+                "count": 1,
+                "value": "Tiger"
+            },
+            {
+                "id": "flower",
+                "label": "Flower",
+                "count": 1,
+                "value": "Flower"
+            },
+            {
+                "id": "santa",
+                "label": "Santa",
+                "count": 1,
+                "value": "Santa"
+            },
+            {
+                "id": "joyworld",
+                "label": "Joyworld",
+                "count": 1,
+                "value": "Joyworld"
+            }
+        ]
+    },
+    "sortOptions": [
+        {
+            "value": "manual",
+            "label": "Featured"
+        },
+        {
+            "value": "best-selling",
+            "label": "Best selling"
+        },
+        {
+            "value": "title-ascending",
+            "label": "Alphabetically, A-Z"
+        },
+        {
+            "value": "title-descending",
+            "label": "Alphabetically, Z-A"
+        },
+        {
+            "value": "price-ascending",
+            "label": "Price, low to high"
+        },
+        {
+            "value": "price-descending",
+            "label": "Price, high to low"
+        },
+        {
+            "value": "created-ascending",
+            "label": "Date, old to new"
+        },
+        {
+            "value": "created-descending",
+            "label": "Date, new to old"
+        }
+    ],
+    "products": [
+        {
+            "id": 10226315362585,
+            "handle": "newborn-baby-homecoming-gift-set-newborn-essential-gift-hamper-soft-gentle-thoughtful-newborn-gift-pack-of-5-copy",
+            "title": "Moms Home Newborn Baby Homecoming Gift Set | Newborn Essential Gift Hamper | Soft, Gentle & Thoughtful Newborn Gift | Pack of 5",
+            "image": "//www.momshome.in/cdn/shop/files/WhatsAppImage2025-12-27at11.59.09AM_533x.jpg?v=1766843681",
+            "price": 99900,
+            "compare_at_price": 139900,
+            "available": true,
+            "discount": 29,
+            "rating": 4.8,
+            "reviewCount": 45,
+            "variants": [
+                {
+                    "id": 51806873125145,
+                    "title": "0-3 Months",
+                    "price": 99900,
+                    "compare_at_price": 139900,
+                    "available": false,
+                    "sku": "MHBBKIMONOONESECMB0TO3P5"
+                },
+                {
+                    "id": 51806873157913,
+                    "title": "3-6 Months",
+                    "price": 99900,
+                    "compare_at_price": 139900,
+                    "available": true,
+                    "sku": "MHBBKIMONOONESECMB3TO6P5"
+                },
+                {
+                    "id": 51806873190681,
+                    "title": "6-12 Months",
+                    "price": 99900,
+                    "compare_at_price": 139900,
+                    "available": true,
+                    "sku": "MHBBKIMONOONESECMB6TO12P5"
+                }
+            ]
+        },
+        {
+            "id": 10226303500569,
+            "handle": "new-born-summer-essential-clothing-for-boys-girls-organic-cotton-baby-clothing-set-baby-shower-gift-hamper-0-6-months-avocado-pack-of-6-copy",
+            "title": "Newborn Baby Home coming Gift Set | New Born Essential Gift Hamper | Pack of 4",
+            "image": "//www.momshome.in/cdn/shop/files/WhatsApp_Image_2025-12-27_at_1.31.17_PM_533x.jpg?v=1766844162",
+            "price": 149900,
+            "compare_at_price": 239900,
+            "available": true,
+            "discount": 38,
+            "rating": 4.7,
+            "reviewCount": 32,
+            "variants": [
+                {
+                    "id": 51806821908761,
+                    "title": "0-3 Months",
+                    "price": 149900,
+                    "compare_at_price": 239900,
+                    "available": true,
+                    "sku": "MHONESEHTOWELBBPB0TO3P4"
+                },
+                {
+                    "id": 51806821941529,
+                    "title": "3-6 Months",
+                    "price": 149900,
+                    "compare_at_price": 239900,
+                    "available": true,
+                    "sku": "MHONESEHTOWELBBPB3TO6P4"
+                },
+                {
+                    "id": 51806835966233,
+                    "title": "6-12 Months",
+                    "price": 149900,
+                    "compare_at_price": 239900,
+                    "available": true,
+                    "sku": "MHONESEHTOWELBBPB6TO12P4"
+                }
+            ]
+        },
+        {
+            "id": 10226308481305,
+            "handle": "newborn-baby-home-coming-gift-set-new-born-essential-gift-hamper-pack-of-4-copy",
+            "title": "Newborn Baby Home coming Gift Set | New Born Essential Gift Hamper | Pack of 4",
+            "image": "//www.momshome.in/cdn/shop/files/image_10_df617731-e1e7-4d11-a388-2fd98bfce829_533x.jpg?v=1766840161",
+            "price": 144900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 28,
+            "rating": 4.6,
+            "reviewCount": 28,
+            "variants": [
+                {
+                    "id": 51806838751513,
+                    "title": "0-3 Months",
+                    "price": 144900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHSWDLONESEBBTOY0TO3P4"
+                },
+                {
+                    "id": 51806838784281,
+                    "title": "3-6 Months",
+                    "price": 144900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHSWDLONESEBBTOY3TO6P4"
+                },
+                {
+                    "id": 51806838817049,
+                    "title": "6-12 Months",
+                    "price": 144900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHSWDLONESEBBTOY6TO12P4"
+                }
+            ]
+        },
+        {
+            "id": 9608183152921,
+            "handle": "baby-quilt-organic-cotton-blanket-100x150-cm-0-5-year-pack-of-1",
+            "title": "Baby Quilt Organic Cotton | Blanket | 100x150 CM | 0-5 Year | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/ELEPHANTBABYQULIT_3_3_533x.webp?v=1766121398",
+            "price": 139900,
+            "compare_at_price": 279900,
+            "available": true,
+            "discount": 50,
+            "rating": 4.9,
+            "reviewCount": 67,
+            "variants": [
+                {
+                    "id": 49381547278617,
+                    "title": "Tiger",
+                    "price": 139900,
+                    "compare_at_price": 279900,
+                    "available": true,
+                    "sku": "MHOCQ3GREEN"
+                },
+                {
+                    "id": 51838865309977,
+                    "title": "Flower",
+                    "price": 159900,
+                    "compare_at_price": 279900,
+                    "available": true,
+                    "sku": "MHBABYQUILTP1FLWR"
+                },
+                {
+                    "id": 50153517449497,
+                    "title": "Lemon",
+                    "price": 149900,
+                    "compare_at_price": 279900,
+                    "available": true,
+                    "sku": "MHBABYQUILTP1LEMON"
+                },
+                {
+                    "id": 49575511032089,
+                    "title": "Santa",
+                    "price": 139900,
+                    "compare_at_price": 279900,
+                    "available": true,
+                    "sku": "MHQUILTSANTA100X150"
+                }
+            ]
+        },
+        {
+            "id": 9845053194521,
+            "handle": "baby-home-coming-outfit-baby-shower-gift-hamper-joyworld-0-3-months-pack-of-7",
+            "title": "Baby Home Coming Outfit Set | Baby Shower Gift Hamper | Baby Essential Clothes Set | Joyworld | 0-3 Months | Pack of 7",
+            "image": "//www.momshome.in/cdn/shop/files/joy_world_2_f0d41ba8-2e41-46ed-9a3a-eb19dcc7e00c_533x.jpg?v=1757758566",
+            "price": 129900,
+            "compare_at_price": 149900,
+            "available": false,
+            "discount": 13,
+            "rating": 4.5,
+            "reviewCount": 19,
+            "variants": []
+        },
+        {
+            "id": 9788195143961,
+            "handle": "organic-cotton-new-born-gift-set-0-12-months-6-items-lemon",
+            "title": "Organic Cotton Baby Essentials Gift Set | Baby Shower Gift Hamper | Baby Clothing Gift Combo | Lemon | Pack of 6",
+            "image": "//www.momshome.in/cdn/shop/files/gg_533x.jpg?v=1754649687",
+            "price": 69900,
+            "compare_at_price": 94900,
+            "available": true,
+            "discount": 26,
+            "rating": 4.4,
+            "reviewCount": 23,
+            "variants": [
+                {
+                    "id": 50058828022041,
+                    "title": "3-6 Months",
+                    "price": 69900,
+                    "compare_at_price": 94900,
+                    "available": true,
+                    "sku": "MHLEMONFS6GIFT3TO6"
+                }
+            ]
+        },
+        {
+            "id": 9940172931353,
+            "handle": "organic-cotton-baby-clothing-set-baby-essential-clothes-for-boys-girls-baby-shower-gift-hamper-0-6-months-avocado-pack-of-6",
+            "title": "Organic Cotton Baby Clothing Set | Baby Essential Clothes For Boys & Girls | Baby Shower Gift Hamper | 0-6 Months | Avocado | Pack of 6",
+            "image": "//www.momshome.in/cdn/shop/files/Avocado_Kimono_set_533x.png?v=1751529630",
+            "price": 89900,
+            "compare_at_price": 94900,
+            "available": true,
+            "discount": 5,
+            "rating": 4.3,
+            "reviewCount": 15,
+            "variants": [
+                {
+                    "id": 50827550359833,
+                    "title": "3-6 Months",
+                    "price": 89900,
+                    "compare_at_price": 94900,
+                    "available": true,
+                    "sku": "MHAVCDOGIFT3TO6P6"
+                }
+            ]
+        },
+        {
+            "id": 9849834340633,
+            "handle": "new-born-baby-muslin-gift-hamper-lemon-pack-of-10",
+            "title": "New Born Baby Muslin Gift Hamper | Baby Shower Gift Set | Baby Essential Clothes Set | Lemon | Pack of 10",
+            "image": "//www.momshome.in/cdn/shop/files/muslin_lemon_10_items_set_1_533x.jpg?v=1747481451",
+            "price": 249900,
+            "compare_at_price": 279900,
+            "available": true,
+            "discount": 11,
+            "rating": 4.9,
+            "reviewCount": 52,
+            "variants": [
+                {
+                    "id": 50367791300889,
+                    "title": "0-3 Months",
+                    "price": 249900,
+                    "compare_at_price": 279900,
+                    "available": true,
+                    "sku": "MHLEMMUS10GIFT0TO3"
+                },
+                {
+                    "id": 50367791333657,
+                    "title": "3-6 Months",
+                    "price": 249900,
+                    "compare_at_price": 279900,
+                    "available": true,
+                    "sku": "MHLEMMUS10GIFT3TO6"
+                },
+                {
+                    "id": 50367791366425,
+                    "title": "6-12 Months",
+                    "price": 249900,
+                    "compare_at_price": 279900,
+                    "available": true,
+                    "sku": "MHLEMMUS10GIFT6TO12"
+                }
+            ]
+        }
+    ]
+}

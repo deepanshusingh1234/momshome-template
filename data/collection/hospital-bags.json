@@ -1,0 +1,192 @@
+{
+    "collection": {
+        "title": "Hospital Bags",
+        "description": "Complete hospital bag essentials for your newborn",
+        "totalProducts": 8,
+        "productsPerPage": 20
+    },
+    "filters": {
+        "availability": [
+            {
+                "id": "in-stock",
+                "label": "In stock",
+                "count": 8,
+                "value": "1"
+            },
+            {
+                "id": "out-of-stock",
+                "label": "Out of stock",
+                "count": 0,
+                "value": "0",
+                "disabled": true
+            }
+        ],
+        "productTypes": [
+            {
+                "id": "hospital-bag",
+                "label": "Hospital Bag",
+                "count": 8,
+                "value": "Hospital Bag"
+            }
+        ],
+        "brands": [
+            {
+                "id": "moms-home",
+                "label": "Moms Home",
+                "count": 8,
+                "value": "Moms Home"
+            }
+        ],
+        "designs": []
+    },
+    "sortOptions": [
+        {
+            "value": "manual",
+            "label": "Featured"
+        },
+        {
+            "value": "best-selling",
+            "label": "Best selling"
+        },
+        {
+            "value": "title-ascending",
+            "label": "Alphabetically, A-Z"
+        },
+        {
+            "value": "title-descending",
+            "label": "Alphabetically, Z-A"
+        },
+        {
+            "value": "price-ascending",
+            "label": "Price, low to high"
+        },
+        {
+            "value": "price-descending",
+            "label": "Price, high to low"
+        },
+        {
+            "value": "created-ascending",
+            "label": "Date, old to new"
+        },
+        {
+            "value": "created-descending",
+            "label": "Date, new to old"
+        }
+    ],
+    "products": [
+        {
+            "id": 6747842019413,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-6-months-40-items",
+            "title": "New Born Baby Essentials Gift Combo Box -0-6 Months- 40 Items",
+            "image": "//www.momshome.in/cdn/shop/files/65812985_1_533x.jpg?v=1771222903",
+            "price": 1099900,
+            "compare_at_price": 2298500,
+            "available": true,
+            "discount": 52,
+            "rating": 4.8,
+            "reviewCount": 24
+        },
+        {
+            "id": 6747841790037,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-6-months-11-products",
+            "title": "New Born Baby Essentials Gift Combo Box -0-6 Months- 35 Items",
+            "image": "//www.momshome.in/cdn/shop/files/new_533x.jpg?v=1755938531",
+            "price": 599900,
+            "compare_at_price": 1389900,
+            "available": true,
+            "discount": 57,
+            "rating": 4.7,
+            "reviewCount": 18
+        },
+        {
+            "id": 9761197326617,
+            "handle": "winter-hospital-kit-for-newborn-40-items-mixed-design",
+            "title": "Winter Hospital Kit For Newborn Baby | New Born Baby Essentials Gift Combo | 40 Items | Mixed Design",
+            "image": "//www.momshome.in/cdn/shop/files/40_e9040008-8d8f-41c0-bf04-39186ea4ded3_533x.jpg?v=1767873046",
+            "price": 1199900,
+            "compare_at_price": 1699900,
+            "available": true,
+            "discount": 29,
+            "rating": 4.9,
+            "reviewCount": 32
+        },
+        {
+            "id": 10242154266905,
+            "handle": "winter-hospital-kit-for-newborn-baby-new-born-baby-essentials-gift-combo-20-items-0-6-months-mixed-design",
+            "title": "Winter Hospital Kit For Newborn Baby | New Born Baby Essentials Gift Combo | 20 Items | 0-6 Months | Mixed Design",
+            "image": "//www.momshome.in/cdn/shop/files/MH0TO3WINGIFT20ITEMS_1_533x.jpg?v=1768654603",
+            "price": 349900,
+            "compare_at_price": 599900,
+            "available": true,
+            "discount": 42,
+            "rating": 4.6,
+            "reviewCount": 15,
+            "variants": [
+                {
+                    "id": 51872143048985,
+                    "title": "0-3 Months",
+                    "price": 349900,
+                    "compare_at_price": 599900,
+                    "available": true,
+                    "sku": "MH0TO3WINGIFT20ITEMS"
+                },
+                {
+                    "id": 51872143081753,
+                    "title": "3-6 Months",
+                    "price": 349900,
+                    "compare_at_price": 599900,
+                    "available": true,
+                    "sku": "MH3TO6WINGIFT20ITEMS"
+                }
+            ]
+        },
+        {
+            "id": 6747841822805,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-6-months-14-products",
+            "title": "New Born Hospital Bag Essentials Combo-0-6 Months- 39 Items",
+            "image": "//www.momshome.in/cdn/shop/files/17_c40cd3e5-f06d-43c3-9e93-3f659ee45ba2_533x.jpg?v=1771223504",
+            "price": 979900,
+            "compare_at_price": 2119900,
+            "available": true,
+            "discount": 54,
+            "rating": 4.8,
+            "reviewCount": 21
+        },
+        {
+            "id": 6747841757269,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-3-months-2",
+            "title": "New Born Baby Essentials Gift Combo Box 0-6 Months - 27 Items",
+            "image": "//www.momshome.in/cdn/shop/files/new_9048cc96-bc2d-4d84-bdf7-1bb544e7e37a_533x.jpg?v=1769086868",
+            "price": 299900,
+            "compare_at_price": 899900,
+            "available": true,
+            "discount": 67,
+            "rating": 4.5,
+            "reviewCount": 12
+        },
+        {
+            "id": 6747844214869,
+            "handle": "all-muslin-nursing-bedding-gift-set-18-items",
+            "title": "All Muslin Nursing and Bedding Gift set (18 items)",
+            "image": "//www.momshome.in/cdn/shop/files/1_58125a74-c809-4c58-805d-1183c5f49b92_533x.jpg?v=1725530705",
+            "price": 699900,
+            "compare_at_price": 1599900,
+            "available": true,
+            "discount": 56,
+            "rating": 4.7,
+            "reviewCount": 19
+        },
+        {
+            "id": 8957263970585,
+            "handle": "new-born-baby-winter-essentials-gift-combo-0-3-months-30-items",
+            "title": "New Born Baby Winter Essentials Gift Combo 0-3 Months - 30 Items",
+            "image": "//www.momshome.in/cdn/shop/files/30_items_muslin_533x.png?v=1729077210",
+            "price": 599900,
+            "compare_at_price": 699900,
+            "available": true,
+            "discount": 14,
+            "rating": 4.4,
+            "reviewCount": 8
+        }
+    ]
+}

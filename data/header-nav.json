@@ -1,0 +1,423 @@
+{
+    "topBanner": {
+        "text": "Extra 15% + Up to 5% Additional Off on Prepaid Orders: When you use code",
+        "code": "LOVE20",
+        "condition": "on orders above Rs 4999"
+    },
+    "contact": {
+        "label": "Contact No.",
+        "numbers": [
+            "+91-9024788312",
+            "+91-6350676005"
+        ]
+    },
+    "searchPlaceholder": "Search the store",
+    "navItems": [
+        {
+            "id": "home",
+            "title": "HOME",
+            "type": "link",
+            "url": "/"
+        },
+        {
+            "id": "shop",
+            "title": "SHOP",
+            "type": "mega-menu",
+            "columns": [
+                {
+                    "title": "MUSLIN ESSENTIALS",
+                    "links": [
+                        {
+                            "title": "Muslin Swaddle",
+                            "url": "/collections/muslin-swaddle"
+                        },
+                        {
+                            "title": "Muslin Towels",
+                            "url": "/collections/muslin-towels"
+                        },
+                        {
+                            "title": "Muslin Clothing",
+                            "url": "/collections/jhabla-tshirts"
+                        },
+                        {
+                            "title": "Muslin Blankets",
+                            "url": "/collections/muslin-dohar-and-blankets"
+                        },
+                        {
+                            "title": "Muslin Gift Sets",
+                            "url": "/collections/muslin-gift-bundles"
+                        }
+                    ]
+                },
+                {
+                    "title": "BABY BEDDING",
+                    "links": [
+                        {
+                            "title": "Baby Quilts",
+                            "url": "/collections/ac-quilt"
+                        },
+                        {
+                            "title": "Kids Quilts",
+                            "url": "/collections/kids-quilt"
+                        },
+                        {
+                            "title": "Blanket | Dohar",
+                            "url": "/collections/blanket-dohar"
+                        },
+                        {
+                            "title": "Sleeping Bag",
+                            "url": "/collections/sleeping-bag"
+                        },
+                        {
+                            "title": "Bedding",
+                            "url": "/collections/bedding"
+                        }
+                    ]
+                },
+                {
+                    "title": "KIDS CLOTHING",
+                    "links": [
+                        {
+                            "title": "Winter Wear",
+                            "url": "/collections/winter-rompers"
+                        },
+                        {
+                            "title": "Woolen Wear",
+                            "url": "/collections/woolen-wear"
+                        },
+                        {
+                            "title": "Infant Clothing",
+                            "url": "/collections/infant-clothing"
+                        },
+                        {
+                            "title": "Onesies Rompers",
+                            "url": "/collections/onesies"
+                        },
+                        {
+                            "title": "T-Shirt Shorts",
+                            "url": "/collections/t-shirt-shorts"
+                        }
+                    ]
+                },
+                {
+                    "title": "NAPPY ESSENTIALS",
+                    "links": [
+                        {
+                            "title": "Cloth Diapers",
+                            "url": "/collections/diaper-time"
+                        },
+                        {
+                            "title": "Nappies",
+                            "url": "/collections/nappies"
+                        },
+                        {
+                            "title": "Diaper Pants",
+                            "url": "/collections/diaper-pants"
+                        },
+                        {
+                            "title": "Dry Sheet",
+                            "url": "/collections/drysheet"
+                        },
+                        {
+                            "title": "Diaper Bags",
+                            "url": "/collections/diaper-bags"
+                        }
+                    ]
+                }
+            ],
+            "secondRow": [
+                {
+                    "title": "NURSING & FEEDING",
+                    "links": [
+                        {
+                            "title": "Cap Mitten Booties",
+                            "url": "/collections/cap-mitten-booties"
+                        },
+                        {
+                            "title": "Feeding Pillow",
+                            "url": "/collections/feeding-pillow"
+                        },
+                        {
+                            "title": "Feeding Apron",
+                            "url": "/collections/feeding-apron"
+                        },
+                        {
+                            "title": "Muslin Washclothes",
+                            "url": "/collections/washclothes"
+                        }
+                    ]
+                },
+                {
+                    "title": "HOSPITAL BAGS",
+                    "links": [
+                        {
+                            "title": "Curated Hospital Bags",
+                            "url": "/collections/hospital-bag"
+                        },
+                        {
+                            "title": "Curate Your Own",
+                            "url": "/apps/gbb/easybundle/1"
+                        },
+                        {
+                            "title": "Baby Shower Gifts",
+                            "url": "/collections/baby-gift-items"
+                        }
+                    ]
+                },
+                {
+                    "title": "FOOTWEAR",
+                    "links": [
+                        {
+                            "title": "Antiskid Socks",
+                            "url": "/collections/antiskid-socks"
+                        },
+                        {
+                            "title": "Socks",
+                            "url": "/collections/kids-socks"
+                        },
+                        {
+                            "title": "Uniform Socks",
+                            "url": "/collections/uniform-socks"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "kids-clothing",
+            "title": "KIDS CLOTHING",
+            "type": "dropdown",
+            "url": "#",
+            "links": [
+                {
+                    "title": "Winter Wear",
+                    "url": "/collections/winter-rompers"
+                },
+                {
+                    "title": "Woolen Wear",
+                    "url": "/collections/woolen-wear"
+                },
+                {
+                    "title": "Infant Clothing",
+                    "url": "/collections/infant-clothing"
+                },
+                {
+                    "title": "T-Shirt Shorts",
+                    "url": "/collections/t-shirt-shorts"
+                },
+                {
+                    "title": "Onesies Rompers",
+                    "url": "/collections/onesies"
+                },
+                {
+                    "title": "Clothing sets",
+                    "url": "/collections/clothing-sets"
+                },
+                {
+                    "title": "Jhabla | Tshirts",
+                    "url": "/collections/jhabla-tshirts"
+                },
+                {
+                    "title": "Summer Wear",
+                    "url": "/collections/summer-wear"
+                },
+                {
+                    "title": "Sleepsuits",
+                    "url": "/collections/sleepsuits"
+                },
+                {
+                    "title": "Boys",
+                    "url": "/collections/boys"
+                },
+                {
+                    "title": "Girls",
+                    "url": "/collections/girls"
+                }
+            ]
+        },
+        {
+            "id": "gift",
+            "title": "GIFT",
+            "type": "dropdown",
+            "url": "/collections/baby-gift-items",
+            "sections": [
+                {
+                    "title": "OCCASION",
+                    "links": [
+                        {
+                            "title": "Curate Your Own Baby Shower Gift",
+                            "url": "/apps/gbb/easybundle/2"
+                        },
+                        {
+                            "title": "Curated Hospital bags",
+                            "url": "/collections/hospital-bag"
+                        },
+                        {
+                            "title": "Baby Shower gifts",
+                            "url": "/collections/baby-gift-items"
+                        },
+                        {
+                            "title": "Muslin Gift sets",
+                            "url": "/collections/muslin-gift-bundles"
+                        }
+                    ]
+                },
+                {
+                    "title": "SHOP BY AGE",
+                    "links": [
+                        {
+                            "title": "New Born (0-1 Month)",
+                            "url": "/collections/baby-gift-items"
+                        },
+                        {
+                            "title": "Infant (1-12 Months)",
+                            "url": "/collections/infant-clothing"
+                        },
+                        {
+                            "title": "Toddler (1-3 Year)",
+                            "url": "/collections/toddler"
+                        },
+                        {
+                            "title": "Boys",
+                            "url": "/collections/boys"
+                        },
+                        {
+                            "title": "Girls",
+                            "url": "/collections/girls"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hospital-bags",
+            "title": "HOSPITAL BAGS",
+            "type": "dropdown",
+            "url": "#",
+            "links": [
+                {
+                    "title": "Curate Your Own Hospital Bag",
+                    "url": "/apps/gbb/easybundle/1"
+                },
+                {
+                    "title": "Curated Hospital Bags",
+                    "url": "/collections/hospital-bag"
+                },
+                {
+                    "title": "Baby Shower Gifts",
+                    "url": "/collections/baby-gift-items"
+                },
+                {
+                    "title": "Diaper & Travel Bag",
+                    "url": "/collections/diaper-bags"
+                }
+            ]
+        },
+        {
+            "id": "valentine",
+            "title": "VALENTINE'S SPECIAL",
+            "type": "link",
+            "url": "/collections/flash-sale"
+        },
+        {
+            "id": "new-arrivals",
+            "title": "NEW ARRIVALS",
+            "type": "dropdown",
+            "url": "/shop/new-arrivals",
+            "sections": [
+                {
+                    "title": "",
+                    "links": [
+                        {
+                            "title": "Just Arrived",
+                            "url": "/collections/new-arrivals"
+                        }
+                    ]
+                },
+                {
+                    "title": "THEME",
+                    "links": [
+                        {
+                            "title": "Avocado",
+                            "url": "/collections/avacoado"
+                        },
+                        {
+                            "title": "Lemon",
+                            "url": "/collections/lemon"
+                        },
+                        {
+                            "title": "Little Hearts",
+                            "url": "/collections/little-hearts"
+                        },
+                        {
+                            "title": "Car",
+                            "url": "/collections/car"
+                        },
+                        {
+                            "title": "Dino",
+                            "url": "/collections/dino"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "shark-deals",
+            "title": "SHARK APPROVED DEALS",
+            "type": "dropdown",
+            "url": "/collections/sale",
+            "links": [
+                {
+                    "title": "Pick Any 3 At Rs 2799",
+                    "url": "/apps/gbb/easybundle/8"
+                },
+                {
+                    "title": "Pick Any 3 for ₹499",
+                    "url": "/apps/gbb/easybundle/6"
+                },
+                {
+                    "title": "Shark Approved Deals",
+                    "url": "/collections/sale"
+                },
+                {
+                    "title": "Buy 1 Get 1",
+                    "url": "/collections/buy-1-get-1"
+                },
+                {
+                    "title": "Under 599",
+                    "url": "/collections/under-599"
+                }
+            ]
+        },
+        {
+            "id": "buy1get1",
+            "title": "BUY 1 GET 1",
+            "type": "link",
+            "url": "/shop/buy-1-get-1"
+        },
+        {
+            "id": "about-us",
+            "title": "ABOUT US",
+            "type": "dropdown",
+            "url": "/pages/about-us",
+            "links": [
+                {
+                    "title": "Brand Story",
+                    "url": "/pages/about-us"
+                },
+                {
+                    "title": "Contact us",
+                    "url": "/pages/contact"
+                },
+                {
+                    "title": "Blog",
+                    "url": "/blogs/news/"
+                },
+                {
+                    "title": "FAQ",
+                    "url": "/pages/faq"
+                }
+            ]
+        }
+    ]
+}

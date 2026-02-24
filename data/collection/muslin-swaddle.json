@@ -1,0 +1,293 @@
+{
+    "collection": {
+        "title": "Muslin Swaddle",
+        "description": "Soft, breathable, and gentle muslin swaddles for your little one",
+        "totalProducts": 52,
+        "productsPerPage": 20
+    },
+    "filters": {
+        "availability": [
+            {
+                "id": "in-stock",
+                "label": "In stock",
+                "count": 52,
+                "value": "1"
+            },
+            {
+                "id": "out-of-stock",
+                "label": "Out of stock",
+                "count": 0,
+                "value": "0",
+                "disabled": true
+            }
+        ],
+        "productTypes": [
+            {
+                "id": "baby-muslin-gift-set",
+                "label": "Baby Muslin Gift Set",
+                "count": 1,
+                "value": "Baby Muslin Gift Set"
+            },
+            {
+                "id": "feeding-apron",
+                "label": "Feeding Apron",
+                "count": 1,
+                "value": "Feeding Apron"
+            },
+            {
+                "id": "muslin-swaddle",
+                "label": "Muslin Swaddle",
+                "count": 48,
+                "value": "Muslin Swaddle"
+            },
+            {
+                "id": "muslin-swaddle-napkin-combo",
+                "label": "Muslin Swaddle & Napkin Combo",
+                "count": 1,
+                "value": "Muslin Swaddle & Napkin Combo"
+            }
+        ],
+        "brands": [
+            {
+                "id": "moms-home",
+                "label": "Moms Home",
+                "count": 51,
+                "value": "Moms Home"
+            },
+            {
+                "id": "momshome-in",
+                "label": "momshome.in",
+                "count": 1,
+                "value": "momshome.in"
+            }
+        ],
+        "designs": [
+            {
+                "id": "avocado",
+                "label": "Avocado",
+                "count": 1,
+                "value": "Avocado"
+            },
+            {
+                "id": "blossom",
+                "label": "Blossom",
+                "count": 1,
+                "value": "Blossom"
+            },
+            {
+                "id": "blue-whale",
+                "label": "Blue Whale",
+                "count": 1,
+                "value": "Blue Whale"
+            },
+            {
+                "id": "flamingo",
+                "label": "Flamingo",
+                "count": 1,
+                "value": "Flamingo"
+            },
+            {
+                "id": "icecream",
+                "label": "Icecream",
+                "count": 1,
+                "value": "Icecream"
+            },
+            {
+                "id": "jungle",
+                "label": "Jungle",
+                "count": 1,
+                "value": "Jungle"
+            },
+            {
+                "id": "lemon",
+                "label": "Lemon",
+                "count": 1,
+                "value": "Lemon"
+            },
+            {
+                "id": "lion",
+                "label": "Lion",
+                "count": 1,
+                "value": "Lion"
+            },
+            {
+                "id": "pink-giraffe",
+                "label": "Pink Giraffe",
+                "count": 1,
+                "value": "Pink Giraffe"
+            },
+            {
+                "id": "yellow-giraffe",
+                "label": "Yellow Giraffe",
+                "count": 1,
+                "value": "Yellow Giraffe"
+            }
+        ]
+    },
+    "sortOptions": [
+        {
+            "value": "manual",
+            "label": "Featured"
+        },
+        {
+            "value": "best-selling",
+            "label": "Best selling"
+        },
+        {
+            "value": "title-ascending",
+            "label": "Alphabetically, A-Z"
+        },
+        {
+            "value": "title-descending",
+            "label": "Alphabetically, Z-A"
+        },
+        {
+            "value": "price-ascending",
+            "label": "Price, low to high"
+        },
+        {
+            "value": "price-descending",
+            "label": "Price, high to low"
+        },
+        {
+            "value": "created-ascending",
+            "label": "Date, old to new"
+        },
+        {
+            "value": "created-descending",
+            "label": "Date, new to old"
+        }
+    ],
+    "products": [
+        {
+            "id": 6747827208277,
+            "handle": "moms-home-organic-cotton-baby-muslin-cloth-swaddle-0-18-months-pack-of-5",
+            "title": "Mom's Home Organic Cotton Baby Muslin Cloth Swaddle | 0-12 Months (Pack of 5)",
+            "image": "//www.momshome.in/cdn/shop/files/blink_it_zepto_products.jpg9_23ff745a-e59b-423a-baed-638d6c8ff85e_533x.jpg?v=1734777806",
+            "price": 114900,
+            "compare_at_price": 299900,
+            "available": true,
+            "discount": 62,
+            "rating": 4.7,
+            "reviewCount": 10
+        },
+        {
+            "id": 6747839103061,
+            "handle": "baby-muslin-cloth-swaddle-0-12-months-100x100-cm-pack-of-3",
+            "title": "Organic Cotton Baby Muslin Cloth Swaddle | 0-12 Months | Pack of 3",
+            "image": "//www.momshome.in/cdn/shop/files/blink_it_zepto_products.jpg6_533x.jpg?v=1734777564",
+            "price": 74900,
+            "compare_at_price": 194900,
+            "available": true,
+            "discount": 62,
+            "rating": 4.92,
+            "reviewCount": 12
+        },
+        {
+            "id": 9677847200025,
+            "handle": "baby-muslin-cloth-swaddle-100x100-cm-0-12-months-pack-of-2",
+            "title": "Baby Muslin Cloth Swaddle | 100X100 CM | 0-12 Months | Pack of 2",
+            "image": "//www.momshome.in/cdn/shop/files/blink_it_zepto_products.jpg5_533x.jpg?v=1739787232",
+            "price": 59900,
+            "compare_at_price": 139900,
+            "available": true,
+            "discount": 57,
+            "rating": 5.0,
+            "reviewCount": 2
+        },
+        {
+            "id": 9612427755801,
+            "handle": "baby-muslin-swaddle-100x100-cm-pack-of-2-icecream-animal",
+            "title": "Baby Muslin Swaddle | 100x100 CM | Pack of 2 | Icecream, Animal",
+            "image": "//www.momshome.in/cdn/shop/files/blink_it_zepto_products.jpg3_533x.jpg?v=1744892088",
+            "price": 59900,
+            "compare_at_price": 139900,
+            "available": true,
+            "discount": 57,
+            "rating": 0,
+            "reviewCount": 0
+        },
+        {
+            "id": 9964140101913,
+            "handle": "organic-cotton-baby-muslin-cloth-swaddle-0-12-months-100x100-cm-pack-of-1",
+            "title": "Organic Cotton Baby Muslin Cloth Swaddle | 0-12 Months | 100x100 CM | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/sofa_swaddle_web_-_avacado_1_533x.jpg?v=1751263010",
+            "price": 39900,
+            "compare_at_price": 79900,
+            "available": true,
+            "discount": 50,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 50977485685017,
+                    "title": "Avocado",
+                    "price": 39900,
+                    "compare_at_price": 79900,
+                    "available": true,
+                    "sku": "MHMUS100P1AVCDO"
+                },
+                {
+                    "id": 50977485717785,
+                    "title": "Lemon",
+                    "price": 39900,
+                    "compare_at_price": 79900,
+                    "available": true,
+                    "sku": "MHMUS100P1LEMON"
+                },
+                {
+                    "id": 50977485750553,
+                    "title": "New Jungle",
+                    "price": 39900,
+                    "compare_at_price": 79900,
+                    "available": true,
+                    "sku": "MHMUS100P1ANIMAL"
+                },
+                {
+                    "id": 50977485783321,
+                    "title": "Bloom",
+                    "price": 39900,
+                    "compare_at_price": 79900,
+                    "available": true,
+                    "sku": "MHMUS100P1BLOOM"
+                }
+            ]
+        },
+        {
+            "id": 9715113263385,
+            "handle": "organic-cotton-baby-muslin-cloth-swaddle-0-12-months-100x100-cm-bloom-unicorn-monkey-rainbow-dinosaur-pack-of-5",
+            "title": "Organic Cotton Baby Muslin Cloth Swaddle | 0-12 Months | 100x100 CM | Bloom, Unicorn, Monkey, Rainbow, Dinosaur | Pack of 5",
+            "image": "//www.momshome.in/cdn/shop/files/p5_2_1_533x.jpg?v=1727962960",
+            "price": 114900,
+            "compare_at_price": 299900,
+            "available": true,
+            "discount": 62,
+            "rating": 0,
+            "reviewCount": 0
+        },
+        {
+            "id": 9715103138073,
+            "handle": "organic-cotton-baby-muslin-cloth-swaddle-0-12-months-100x100-cm-flamingo-blue-whale-lion-rainbow-pink-giraffe-pack-of-5",
+            "title": "Organic Cotton Baby Muslin Cloth Swaddle | 0-12 Months | 100x100 CM | Flamingo, Blue Whale, Lion, Rainbow, Pink Giraffe | Pack of 5",
+            "image": "//www.momshome.in/cdn/shop/files/MHMUSP5FWLRG_533x.jpg?v=1744895730",
+            "price": 114900,
+            "compare_at_price": 299900,
+            "available": true,
+            "discount": 62,
+            "rating": 5.0,
+            "reviewCount": 1
+        },
+        {
+            "id": 9715130073369,
+            "handle": "organic-cotton-baby-muslin-cloth-swaddle-0-12-months-100x100-cm-rainbow-unicorn-cute-jungle-blossom-pack-of-4",
+            "title": "Organic Cotton Baby Muslin Cloth Swaddle | 0-12 Months | 100x100 CM | Rainbow, Unicorn, Cute Jungle, Blossom | Pack of 4",
+            "image": "//www.momshome.in/cdn/shop/files/MHMUSP4RUAB_533x.jpg?v=1744895959",
+            "price": 94900,
+            "compare_at_price": 239900,
+            "available": true,
+            "discount": 60,
+            "rating": 0,
+            "reviewCount": 0
+        }
+    ]
+}

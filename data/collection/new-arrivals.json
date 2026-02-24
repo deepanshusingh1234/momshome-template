@@ -1,0 +1,386 @@
+{
+    "collection": {
+        "title": "New Arrivals",
+        "description": "Check out our latest organic cotton collection for your little ones",
+        "totalProducts": 8,
+        "productsPerPage": 20
+    },
+    "filters": {
+        "availability": [
+            {
+                "id": "in-stock",
+                "label": "In stock",
+                "count": 6,
+                "value": "1"
+            },
+            {
+                "id": "out-of-stock",
+                "label": "Out of stock",
+                "count": 2,
+                "value": "0"
+            }
+        ],
+        "productTypes": [
+            {
+                "id": "t-shirt-shorts-set",
+                "label": "T-Shirt & Shorts Set",
+                "count": 2,
+                "value": "T-Shirt & Shorts Set"
+            },
+            {
+                "id": "jhabla-pyjama-set",
+                "label": "Jhabla & Pyjama Set",
+                "count": 3,
+                "value": "Jhabla & Pyjama Set"
+            },
+            {
+                "id": "baby-cap",
+                "label": "Baby Cap",
+                "count": 1,
+                "value": "Baby Cap"
+            },
+            {
+                "id": "baby-sweater",
+                "label": "Baby Sweater",
+                "count": 1,
+                "value": "Baby Sweater"
+            },
+            {
+                "id": "baby-play-mat",
+                "label": "Baby Play Mat",
+                "count": 1,
+                "value": "Baby Play Mat"
+            }
+        ],
+        "brands": [
+            {
+                "id": "moms-home",
+                "label": "Moms Home",
+                "count": 8,
+                "value": "Moms Home"
+            }
+        ],
+        "designs": [
+            {
+                "id": "little-heart",
+                "label": "Little Heart",
+                "count": 1,
+                "value": "Little Heart"
+            },
+            {
+                "id": "bunny",
+                "label": "Bunny",
+                "count": 1,
+                "value": "Bunny"
+            },
+            {
+                "id": "avocado",
+                "label": "Avocado",
+                "count": 1,
+                "value": "Avocado"
+            },
+            {
+                "id": "lemon",
+                "label": "Lemon",
+                "count": 1,
+                "value": "Lemon"
+            },
+            {
+                "id": "dino",
+                "label": "Dino",
+                "count": 1,
+                "value": "Dino"
+            }
+        ]
+    },
+    "sortOptions": [
+        {
+            "value": "manual",
+            "label": "Featured"
+        },
+        {
+            "value": "best-selling",
+            "label": "Best selling"
+        },
+        {
+            "value": "title-ascending",
+            "label": "Alphabetically, A-Z"
+        },
+        {
+            "value": "title-descending",
+            "label": "Alphabetically, Z-A"
+        },
+        {
+            "value": "price-ascending",
+            "label": "Price, low to high"
+        },
+        {
+            "value": "price-descending",
+            "label": "Price, high to low"
+        },
+        {
+            "value": "created-ascending",
+            "label": "Date, old to new"
+        },
+        {
+            "value": "created-descending",
+            "label": "Date, new to old"
+        }
+    ],
+    "products": [
+        {
+            "id": 10270844715289,
+            "handle": "t-shirt-shorts-co-ord-set-for-kids-elegant-comfortable-summer-wear-organic-cotton-clothing-set-little-heart-pack-of-1",
+            "title": "T-Shirt & Shorts Co-ord Set for Kids | Elegant & Comfortable Summer Wear | Organic Cotton Clothing Set | Little Heart | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/t-shirtshortheart_533x.jpg?v=1771053793",
+            "price": 49900,
+            "compare_at_price": 84900,
+            "available": true,
+            "discount": 41,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51982726103321,
+                    "title": "0-3 Months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": true,
+                    "sku": "MHHRTTSHIRTSHORT0TO3"
+                },
+                {
+                    "id": 51982726136089,
+                    "title": "3-6 Months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": false,
+                    "sku": "MHHRTTSHIRTSHORT3TO6"
+                },
+                {
+                    "id": 51982726168857,
+                    "title": "6-12 Months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": true,
+                    "sku": "MHHRTTSHIRTSHORT6TO12"
+                },
+                {
+                    "id": 51982726201625,
+                    "title": "12-18 months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": true,
+                    "sku": "MHHRTTSHIRTSHORT12TO18"
+                }
+            ]
+        },
+        {
+            "id": 10270366007577,
+            "handle": "organic-cotton-jhabla-pyjama-for-new-born-full-sleeve-baby-jabla-and-baby-pajama-co-ord-set-0-12-months-bunny-set-of-1",
+            "title": "Organic Cotton Jhabla & Pyjama For New Born | Full Sleeve Baby Jabla and Baby Pajama Co-Ord Set | Bunny | Set of 1",
+            "image": "//www.momshome.in/cdn/shop/files/t-shirt_pajama_mockup_2_jpg_533x.jpg?v=1770893419",
+            "price": 69900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 65,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51979961139481,
+                    "title": "6-12 Months",
+                    "price": 69900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHJHABLAPAYJAMABNY6TO12P1"
+                },
+                {
+                    "id": 51980226429209,
+                    "title": "1-2 Years",
+                    "price": 69900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHJHABLAPAYJAMABNY1TO2P1"
+                },
+                {
+                    "id": 51980226461977,
+                    "title": "2-3 Years",
+                    "price": 69900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHJHABLAPAYJAMABNY2TO3P1"
+                }
+            ]
+        },
+        {
+            "id": 10270844813593,
+            "handle": "t-shirt-shorts-co-ord-set-for-kids-elegant-comfortable-summer-wear-organic-cotton-clothing-set-avocado-pack-of-1",
+            "title": "T-Shirt & Shorts Co-ord Set for Kids | Elegant & Comfortable Summer Wear | Organic Cotton Clothing Set | Avocado | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/t-shirtshortavocado_533x.jpg?v=1771053890",
+            "price": 49900,
+            "compare_at_price": 84900,
+            "available": true,
+            "discount": 41,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51982726824217,
+                    "title": "0-3 Months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": true,
+                    "sku": "MHAVDOTSHIRTSHORT0TO3"
+                },
+                {
+                    "id": 51982726856985,
+                    "title": "3-6 Months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": false,
+                    "sku": "MHAVDOTSHIRTSHORT3TO6"
+                },
+                {
+                    "id": 51982726889753,
+                    "title": "6-12 Months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": true,
+                    "sku": "MHAVDOTSHIRTSHORT6TO12"
+                },
+                {
+                    "id": 51982726922521,
+                    "title": "12-18 months",
+                    "price": 49900,
+                    "compare_at_price": 84900,
+                    "available": true,
+                    "sku": "MHAVDOTSHIRTSHORT12TO18"
+                }
+            ]
+        },
+        {
+            "id": 10254623277337,
+            "handle": "organic-cotton-newborn-baby-clothing-set-baby-shower-gift-hamper-kimono-top-pyjama-cap-set-0-6-months-pack-of-3",
+            "title": "Organic Cotton Newborn Baby Clothing Set | Baby Shower Gift Hamper | Kimono Top, Pyjama & Cap Set | 0-6 Months | Pack of 3",
+            "image": "//www.momshome.in/cdn/shop/files/12_8eb50e2d-d12b-4f9e-97aa-b9dee95d1459_533x.jpg?v=1771246742",
+            "price": 54900,
+            "compare_at_price": 99900,
+            "available": true,
+            "discount": 45,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51920802840857,
+                    "title": "0-3 Months",
+                    "price": 54900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHKIMOPAJCAPLMN0TO3P3"
+                },
+                {
+                    "id": 51920802873625,
+                    "title": "3-6 Months",
+                    "price": 54900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHKIMOPAJCAPLMN3TO6P3"
+                }
+            ]
+        },
+        {
+            "id": 10247469859097,
+            "handle": "organic-cotton-newborn-baby-clothing-set-baby-shower-gift-hamper-kimono-onesie-payjama-cap-set-0-6-months-pack-of-3",
+            "title": "Organic Cotton Newborn Baby Clothing Set | Baby Shower Gift Hamper | Kimono Onesie, Pyjama & Cap Set | 0-6 Months | Pack of 3",
+            "image": "//www.momshome.in/cdn/shop/files/MHKIMOPAJCAPAVACADO0TO3P3_1_533x.jpg?v=1769082167",
+            "price": 54900,
+            "compare_at_price": 99900,
+            "available": true,
+            "discount": 45,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51887761129753,
+                    "title": "0-3 Months",
+                    "price": 54900,
+                    "compare_at_price": 99900,
+                    "available": false,
+                    "sku": "MHKIMOPAJCAPAVACADO0TO3P3"
+                },
+                {
+                    "id": 51887761162521,
+                    "title": "3-6 Months",
+                    "price": 54900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHKIMOPAJCAPAVACADO3TO6P3"
+                }
+            ]
+        },
+        {
+            "id": 10249401532697,
+            "handle": "winter-warm-woollen-full-sleeve-sweater-for-baby-dino-3-18-months-pack-of-1",
+            "title": "Winter Warm Woollen Full Sleeve Sweater For Baby | Dino | 3-18 Months | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/8_bd60bf69-b31f-436a-944e-6028b5c8beb6_533x.jpg?v=1769254344",
+            "price": 69900,
+            "compare_at_price": 199900,
+            "available": false,
+            "discount": 65,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": []
+        },
+        {
+            "id": 10233996017945,
+            "handle": "organic-muslin-baby-play-mat-soft-cotton-baby-floor-mat-for-newborns-toddlers-washable-skin-friendly-playmat-100x100-cm",
+            "title": "Organic Muslin Baby Play Mat | Soft Cotton Baby Floor Mat for Newborns & Toddlers | 100x100 CM",
+            "image": "//www.momshome.in/cdn/shop/files/1_67bead1a-726f-4bc9-8f6b-d396197eb3b2_533x.jpg?v=1767613434",
+            "price": 79900,
+            "compare_at_price": 199900,
+            "available": false,
+            "discount": 60,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": []
+        },
+        {
+            "id": 10232587321625,
+            "handle": "winter-warm-woolen-baby-cap-for-0-12-months-soft-infant-beanie-hat-newborn-winter-headwear-abc-pack-of-2",
+            "title": "Winter Warm Woolen Baby Cap For 0–12 Months | Soft Infant Beanie Hat | Newborn Winter Headwear | Pack of 2",
+            "image": "//www.momshome.in/cdn/shop/files/p2-_5_533x.jpg?v=1767357675",
+            "price": 34900,
+            "compare_at_price": 99900,
+            "available": true,
+            "discount": 65,
+            "rating": 0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51823562621209,
+                    "title": "Pink & Yellow",
+                    "price": 34900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHWOLCAPABCPINKYLWP2"
+                },
+                {
+                    "id": 51823562653977,
+                    "title": "Green & Sky Blue",
+                    "price": 34900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHWOLCAPABCGRNSBLUP2"
+                },
+                {
+                    "id": 51823562686745,
+                    "title": "Barbie Pink & Peach",
+                    "price": 34900,
+                    "compare_at_price": 99900,
+                    "available": true,
+                    "sku": "MHWOLCAPABCBPINKPECHP2"
+                }
+            ]
+        }
+    ]
+}

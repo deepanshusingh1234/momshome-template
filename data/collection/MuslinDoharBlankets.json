@@ -1,0 +1,410 @@
+{
+    "collection": {
+        "title": "Muslin Dohar / Blankets",
+        "totalProducts": 13,
+        "productsPerPage": 20
+    },
+    "filters": {
+        "availability": [
+            {
+                "id": "in-stock",
+                "label": "In stock",
+                "count": 13,
+                "value": "1"
+            },
+            {
+                "id": "out-of-stock",
+                "label": "Out of stock",
+                "count": 0,
+                "value": "0",
+                "disabled": true
+            }
+        ]
+    },
+    "sortOptions": [
+        {
+            "value": "manual",
+            "label": "Featured"
+        },
+        {
+            "value": "best-selling",
+            "label": "Best selling"
+        },
+        {
+            "value": "title-ascending",
+            "label": "Alphabetically, A-Z"
+        },
+        {
+            "value": "title-descending",
+            "label": "Alphabetically, Z-A"
+        },
+        {
+            "value": "price-ascending",
+            "label": "Price, low to high"
+        },
+        {
+            "value": "price-descending",
+            "label": "Price, high to low"
+        },
+        {
+            "value": "created-ascending",
+            "label": "Date, old to new"
+        },
+        {
+            "value": "created-descending",
+            "label": "Date, new to old"
+        }
+    ],
+    "products": [
+        {
+            "id": 9677509820697,
+            "handle": "baby-6-layer-muslin-blanket-cum-towel-100x100-cm-0-3-years-pack-of-1",
+            "title": "Baby 6 Layer Muslin Blanket Cum Towel | 100X100 CM | 0-3 Years | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/blink_it_zepto_products.jpg12_533x.jpg?v=1749729828",
+            "price": 89900,
+            "compare_at_price": 179900,
+            "available": true,
+            "discount": 50,
+            "rating": 5.0,
+            "reviewCount": 3,
+            "variants": [
+                {
+                    "id": 49581442007321,
+                    "title": "Duck",
+                    "price": 89900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSTOWELDUCK"
+                },
+                {
+                    "id": 49581442072857,
+                    "title": "Car",
+                    "price": 89900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSTOWELPRINTEDCAR"
+                },
+                {
+                    "id": 49581442040089,
+                    "title": "Blue Whale",
+                    "price": 89900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSTOWELBLUEWHALE"
+                },
+                {
+                    "id": 49581442171161,
+                    "title": "Avocado",
+                    "price": 89900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSBLNKAVOCADO"
+                },
+                {
+                    "id": 49581442105625,
+                    "title": "Dinopark",
+                    "price": 99900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSTOWELPRINTEDJUNGLE"
+                },
+                {
+                    "id": 49581442138393,
+                    "title": "Elephant",
+                    "price": 99900,
+                    "compare_at_price": 179900,
+                    "available": false,
+                    "sku": "MHMUSTOWELPRINTEDPELEPHANT"
+                }
+            ]
+        },
+        {
+            "id": 9932181438745,
+            "handle": "organic-cotton-6-layer-muslin-blanket-super-soft-cotton-kids-blanket-140x200-cm-5-15-years-pack-of-1",
+            "title": "Organic Cotton 6 Layer Muslin Blanket | Super Soft Cotton Kids Blanket | 140X200 CM | 5-15 Years | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/new_blanket_140_x_200_cm_lovely_cat_533x.jpg?v=1758259016",
+            "price": 199900,
+            "compare_at_price": 329900,
+            "available": false,
+            "discount": 39,
+            "rating": 5.0,
+            "reviewCount": 1,
+            "variants": [
+                {
+                    "id": 50773260534041,
+                    "title": "Icecream",
+                    "price": 199900,
+                    "compare_at_price": 329900,
+                    "available": false,
+                    "sku": "MHMUSBLNK140X200ICE"
+                },
+                {
+                    "id": 50773260566809,
+                    "title": "Lovely Cat",
+                    "price": 199900,
+                    "compare_at_price": 329900,
+                    "available": false,
+                    "sku": "MHMUSBLNK140X200LCAT"
+                },
+                {
+                    "id": 50773252407577,
+                    "title": "Avocado",
+                    "price": 199900,
+                    "compare_at_price": 329900,
+                    "available": false,
+                    "sku": "MHMUSBLNK140X200AVCDO"
+                },
+                {
+                    "id": 50773260501273,
+                    "title": "Flower",
+                    "price": 199900,
+                    "compare_at_price": 329900,
+                    "available": false,
+                    "sku": "MHMUSBLNK140X200FLWR"
+                }
+            ]
+        },
+        {
+            "id": 10239021580569,
+            "handle": "muslin-winter-dohar-for-babies-lightweight-soft-warm-cotton-muslin-baby-blanket-for-newborns-toddlers-flower-100x100-cm",
+            "title": "Muslin Winter Dohar for Babies | Lightweight, Soft & Warm Cotton Muslin Baby Blanket For Newborns & Toddlers | 100x100 CM",
+            "image": "//www.momshome.in/cdn/shop/files/bunnydohar_533x.jpg?v=1768314306",
+            "price": 89900,
+            "compare_at_price": 199900,
+            "available": false,
+            "discount": 55,
+            "rating": 0.0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 51854594638105,
+                    "title": "Default Title",
+                    "price": 89900,
+                    "compare_at_price": 199900,
+                    "available": false,
+                    "sku": "MHMUSDOHARFLWR"
+                }
+            ]
+        },
+        {
+            "id": 9778875466009,
+            "handle": "muslin-winter-dohar-for-babies-lightweight-soft-warm-cotton-muslin-baby-blanket-for-newborns-toddlers-blossom-100x100-cm",
+            "title": "Muslin Winter Dohar for Babies | Lightweight, Soft & Warm Cotton Muslin Baby Blanket For Newborns & Toddlers | 100x100 CM",
+            "image": "//www.momshome.in/cdn/shop/files/winter_clothing.png22_533x.png?v=1732798785",
+            "price": 89900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 55,
+            "rating": 0.0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 49984158433561,
+                    "title": "Default Title",
+                    "price": 89900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHMUSDOHARBLOSSOM"
+                }
+            ]
+        },
+        {
+            "id": 9175158423833,
+            "handle": "copy-of-baby-muslin-6-layer-muslin-blanket-cum-towel-100x100-cm-0-3-years-pack-of-1-blue-whale",
+            "title": "Baby Muslin 6 Layer Muslin blanket Cum Towel | 100X100 CM |0-3 Years| Duck",
+            "image": "//www.momshome.in/cdn/shop/files/muslin_blanket_mockup.psd_minku._duck_533x.jpg?v=1743148181",
+            "price": 89900,
+            "compare_at_price": 179900,
+            "available": true,
+            "discount": 50,
+            "rating": 5.0,
+            "reviewCount": 2,
+            "variants": [
+                {
+                    "id": 48226575286553,
+                    "title": "Default Title",
+                    "price": 89900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSTOWELDUCK"
+                }
+            ]
+        },
+        {
+            "id": 8682463166745,
+            "handle": "baby-muslin-6-layer-wash-towel-100x100-cm-0-3-years-pack-of-1-blue-whale",
+            "title": "Baby Muslin 6 Layer Muslin blanket Cum Towel - 100X100 CM - (0-3 Years) Pack Of 1 Blue Whale",
+            "image": "//www.momshome.in/cdn/shop/files/muslin_blanket_mockup.psd_minku._whale_533x.jpg?v=1743147783",
+            "price": 84900,
+            "compare_at_price": 179900,
+            "available": true,
+            "discount": 53,
+            "rating": 5.0,
+            "reviewCount": 2,
+            "variants": [
+                {
+                    "id": 46778277331225,
+                    "title": "Default Title",
+                    "price": 84900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSTOWELBLUEWHALE"
+                }
+            ]
+        },
+        {
+            "id": 6747843264597,
+            "handle": "baby-muslin-6-layer-wash-towel-100x100-cm-0-3-years-car",
+            "title": "Baby Muslin 6 Layer Muslin blanket Cum Towel -100 x100 cm - 0-3 Years - Car",
+            "image": "//www.momshome.in/cdn/shop/files/muslin_blanket_mockup.psd_minku._car_1_533x.jpg?v=1743147927",
+            "price": 84900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 58,
+            "rating": 4.5,
+            "reviewCount": 2,
+            "variants": [
+                {
+                    "id": 40025159106645,
+                    "title": "Default Title",
+                    "price": 84900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHMUSTOWELPRINTEDCAR"
+                }
+            ]
+        },
+        {
+            "id": 8039587250457,
+            "handle": "moms-home-baby-super-soft-absorbent-muslin-6-layer-towel-cum-blanket-60x120-cm-ice-cream",
+            "title": "Moms Home Baby Super Soft Absorbent Muslin 6 Layer Towel | 60x120 CM | Ice- Cream",
+            "image": "//www.momshome.in/cdn/shop/products/2_8346394c-ea7b-48dc-aeaa-49e01faa41d5_533x.jpg?v=1700806853",
+            "price": 84900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 58,
+            "rating": 0.0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 44225918533913,
+                    "title": "Default Title",
+                    "price": 84900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHMUSTOWELICECREAMP1"
+                }
+            ]
+        },
+        {
+            "id": 8039588397337,
+            "handle": "moms-home-baby-super-soft-absorbent-muslin-6-layer-towel-cum-blanket-60x120-cm-lovely-cat",
+            "title": "Moms Home Baby Super Soft Absorbent Muslin 6 Layer Towel | 60x120 cm | Lovely Cat",
+            "image": "//www.momshome.in/cdn/shop/products/2_4ccd42d6-5fd2-4bde-bfe1-869bd63f472e_533x.jpg?v=1700806913",
+            "price": 84900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 58,
+            "rating": 5.0,
+            "reviewCount": 1,
+            "variants": [
+                {
+                    "id": 44225923383577,
+                    "title": "Default Title",
+                    "price": 84900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHMUSTOWELLOVLYCATP1"
+                }
+            ]
+        },
+        {
+            "id": 8039584334105,
+            "handle": "moms-home-baby-super-soft-absorbent-muslin-6-layer-towel-cum-blanket-60-x-120-carrot-rabbit",
+            "title": "Moms Home Baby Super Soft Absorbent Muslin 6 Layer Towel Cum Blanket | 60 x 120 | Carrot Rabbit",
+            "image": "//www.momshome.in/cdn/shop/files/22_2_68e9a235-3314-427d-a103-63ba1ea0b181_533x.jpg?v=1690360625",
+            "price": 84900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 58,
+            "rating": 0.0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 44225899626777,
+                    "title": "Default Title",
+                    "price": 84900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHMUSTOWELCAROTRABITP1"
+                }
+            ]
+        },
+        {
+            "id": 8221198713113,
+            "handle": "copy-of-baby-muslin-6-layer-wash-towel-100x100-cm-0-3-years-pack-of-1-strawberry-design",
+            "title": "Baby Muslin Blanket 6 Layer - 100X100 CM - Pack Of 1 Strawberry",
+            "image": "//www.momshome.in/cdn/shop/products/18_4_533x.jpg?v=1724492465",
+            "price": 89900,
+            "compare_at_price": 179900,
+            "available": true,
+            "discount": 50,
+            "rating": 4.0,
+            "reviewCount": 1,
+            "variants": [
+                {
+                    "id": 44998662029593,
+                    "title": "Default Title",
+                    "price": 89900,
+                    "compare_at_price": 179900,
+                    "available": true,
+                    "sku": "MHMUSTOWELSTRAWBERRY2"
+                }
+            ]
+        },
+        {
+            "id": 6747845066837,
+            "handle": "baby-muslin-4-layer-blanket-cum-wash-towel-100x100-cm-0-3-years-dots",
+            "title": "Baby Muslin Dohar- 100X100 CM-(0-3 Years)-Polka Dots",
+            "image": "//www.momshome.in/cdn/shop/products/7_3_fd9276b2-4c8e-415d-b69e-4471ec7e3d37_533x.jpg?v=1678542570",
+            "price": 74900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 63,
+            "rating": 0.0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 40025162219605,
+                    "title": "Default Title",
+                    "price": 74900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MH4LAYERMUSTOWELDOT"
+                }
+            ]
+        },
+        {
+            "id": 6747848441941,
+            "handle": "baby-super-soft-absorbent-muslin-6-layer-bath-towel-60x120-cm-blue-whale",
+            "title": "Baby Super Soft Absorbent Muslin  6 Layer Bath Towel |  60X120 CM | Blue Whale",
+            "image": "//www.momshome.in/cdn/shop/files/19_4_1_533x.jpg?v=1690360543",
+            "price": 84900,
+            "compare_at_price": 199900,
+            "available": true,
+            "discount": 58,
+            "rating": 0.0,
+            "reviewCount": 0,
+            "variants": [
+                {
+                    "id": 40025167757397,
+                    "title": "Default Title",
+                    "price": 84900,
+                    "compare_at_price": 199900,
+                    "available": true,
+                    "sku": "MHMUSTOWELP1PRINTED"
+                }
+            ]
+        }
+    ]
+}

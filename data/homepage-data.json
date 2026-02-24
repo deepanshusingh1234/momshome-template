@@ -1,0 +1,817 @@
+{
+    "brands": [
+        {
+            "id": "d436bd12-1274-4406-9390-e950151fbe8a",
+            "image": "//www.momshome.in/cdn/shop/files/hospital-bag_270x.webp?v=1752496545",
+            "link": "/shop/hospital-bags",
+            "alt": "Hospital Bag",
+            "title": "Hospital Bag"
+        },
+        {
+            "id": "fcfce55e-8fe7-4a74-9144-b92bd0bc2b2c",
+            "image": "//www.momshome.in/cdn/shop/files/muslin_essy_270x.png?v=1740750991",
+            "link": "/shop/muslin-swaddle",
+            "alt": "Muslin Essentials",
+            "title": "Muslin Essentials"
+        },
+        {
+            "id": "70c98209-e556-47a8-905c-ef59a3cbdafa",
+            "image": "//www.momshome.in/cdn/shop/files/winter_essentials_1_270x.png?v=1765783423",
+            "link": "/shop/winter-rompers",
+            "alt": "Winter Essentials",
+            "title": "Winter Essentials"
+        },
+        {
+            "id": "image_DAmGUE",
+            "image": "//www.momshome.in/cdn/shop/files/new_arrival_56dd4909-6615-406b-94ca-ea2d3ef48555_270x.png?v=1737109362",
+            "link": "/shop/new-arrivals",
+            "alt": "New Arrivals",
+            "title": "New Arrivals"
+        },
+        {
+            "id": "f15bb8a5-40f9-4d63-97ab-a51b2e7a1420",
+            "image": "//www.momshome.in/cdn/shop/files/Baby_Shower_1_270x.png?v=1765783509",
+            "link": "/shop/baby-gift-items",
+            "alt": "Baby Shower",
+            "title": "Baby Shower"
+        }
+    ],
+    "featuredProducts": [
+        {
+            "id": "onesies",
+            "image": "//www.momshome.in/cdn/shop/files/5_4_a2ed561f-965c-49cf-b905-218921ea0622_533x.jpg?v=1731744384",
+            "title": "Onesies",
+            "link": "/collections/onesies",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#6cad96"
+        },
+        {
+            "id": "sleeping-bag",
+            "image": "//www.momshome.in/cdn/shop/files/Pink_Giraffe_f3d518bb-6a33-4148-89ab-96ff985f5afd_533x.jpg?v=1731743687",
+            "title": "Sleeping Bag",
+            "link": "https://www.momshome.in/collections/sleeping-bag",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#6cad96"
+        },
+        {
+            "id": "solid-towel",
+            "image": "//www.momshome.in/cdn/shop/files/WhatsApp_Image_2024-05-16_at_8.50.18_PM_1_533x.jpg?v=1731764171",
+            "title": "Solid Towel",
+            "link": "https://www.momshome.in/collections/muslin-towels",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#6cad96"
+        }
+    ],
+    "slides": [
+        {
+            "id": "image_8tUTwG",
+            "mobileImage": "//www.momshome.in/cdn/shop/files/valentines_day_sale_banners_mobile.jpg_2.jpg?v=1771049275",
+            "desktopImage": "//www.momshome.in/cdn/shop/files/valentines_day_sale_banners.jpg_1.jpg?v=1771049332",
+            "link": "/collections/flash-sale",
+            "alt": "Valentine's Day Sale"
+        },
+        {
+            "id": "16321237356a896dad-0",
+            "mobileImage": "//www.momshome.in/cdn/shop/files/new_hospital_bag222_mobile_jpg.jpg?v=1770817472",
+            "desktopImage": "//www.momshome.in/cdn/shop/files/new_hospital_bag222_jpg.jpg?v=1770817452",
+            "link": "/collections/hospital-bag",
+            "alt": "Hospital Bags"
+        },
+        {
+            "id": "image_WENLHY",
+            "mobileImage": "//www.momshome.in/cdn/shop/files/winter_banner2.1_1.jpg?v=1764941423",
+            "desktopImage": "//www.momshome.in/cdn/shop/files/winter_banner2.jpg44.jpg?v=1764853712",
+            "link": "/collections/winter-collection",
+            "alt": "Winter Collection"
+        },
+        {
+            "id": "8091d8a5-cd0e-452b-939d-561c3f6b56eb",
+            "mobileImage": "//www.momshome.in/cdn/shop/files/book-set.jpgmobile.jpg?v=1767612612",
+            "desktopImage": "//www.momshome.in/cdn/shop/files/book-set.jpg?v=1767612595",
+            "link": "/collections/baby-gift-items",
+            "alt": "Baby Gift Items"
+        }
+    ],
+    "moreFeaturedProducts": [
+        {
+            "id": "muslin-swaddle",
+            "image": "//www.momshome.in/cdn/shop/files/WhatsApp_Image_2024-05-16_at_8.50.18_PM_1_533x.jpg?v=1731764171",
+            "title": "Muslin Swaddle",
+            "link": "/collections/muslin-swaddle",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#a790d4"
+        },
+        {
+            "id": "baby-gift-items",
+            "image": "//www.momshome.in/cdn/shop/files/Baby_Shower_1_533x.png?v=1765783509",
+            "title": "Baby Gift Items",
+            "link": "/collections/baby-gift-items",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#a790d4"
+        },
+        {
+            "id": "winter-rompers",
+            "image": "//www.momshome.in/cdn/shop/files/winter_essentials_1_533x.png?v=1765783423",
+            "title": "Winter Rompers",
+            "link": "/collections/winter-rompers",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#a790d4"
+        }
+    ],
+    "hospitalBagsProducts": [
+        {
+            "id": 6747842019413,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-6-months-40-items",
+            "title": "New Born Baby Essentials Gift Combo Box -0-6 Months- 40 Items",
+            "image": "//www.momshome.in/cdn/shop/files/65812985_1_533x.jpg?v=1771222903",
+            "price": 10999,
+            "compare_at_price": 22985,
+            "available": true,
+            "discount": 52
+        },
+        {
+            "id": 6747841790037,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-6-months-11-products",
+            "title": "New Born Baby Essentials Gift Combo Box -0-6 Months- 35 Items",
+            "image": "//www.momshome.in/cdn/shop/files/new_533x.jpg?v=1755938531",
+            "price": 5999,
+            "compare_at_price": 13899,
+            "available": true,
+            "discount": 57
+        },
+        {
+            "id": 9761197326617,
+            "handle": "winter-hospital-kit-for-newborn-40-items-mixed-design",
+            "title": "Winter Hospital Kit For Newborn Baby | New Born Baby Essentials Gift Combo | 40 Items | Mixed Design",
+            "image": "//www.momshome.in/cdn/shop/files/40_e9040008-8d8f-41c0-bf04-39186ea4ded3_533x.jpg?v=1767873046",
+            "price": 11999,
+            "compare_at_price": 16999,
+            "available": true,
+            "discount": 29
+        },
+        {
+            "id": 10242154266905,
+            "handle": "winter-hospital-kit-for-newborn-baby-new-born-baby-essentials-gift-combo-20-items-0-6-months-mixed-design",
+            "title": "Winter Hospital Kit For Newborn Baby | New Born Baby Essentials Gift Combo | 20 Items | 0-6 Months | Mixed Design",
+            "image": "//www.momshome.in/cdn/shop/files/MH0TO3WINGIFT20ITEMS_1_533x.jpg?v=1768654603",
+            "price": 3499,
+            "compare_at_price": 5999,
+            "available": true,
+            "discount": 42,
+            "variants": [
+                {
+                    "id": 51872143048985,
+                    "title": "0-3 Months",
+                    "price": 3499,
+                    "compare_at_price": 5999,
+                    "available": true,
+                    "sku": "MH0TO3WINGIFT20ITEMS"
+                },
+                {
+                    "id": 51872143081753,
+                    "title": "3-6 Months",
+                    "price": 3499,
+                    "compare_at_price": 5999,
+                    "available": true,
+                    "sku": "MH3TO6WINGIFT20ITEMS"
+                }
+            ]
+        },
+        {
+            "id": 6747841822805,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-6-months-14-products",
+            "title": "New Born Hospital Bag Essentials Combo-0-6 Months- 39 Items",
+            "image": "//www.momshome.in/cdn/shop/files/17_c40cd3e5-f06d-43c3-9e93-3f659ee45ba2_533x.jpg?v=1771223504",
+            "price": 9799,
+            "compare_at_price": 21199,
+            "available": true,
+            "discount": 54
+        },
+        {
+            "id": 6747841757269,
+            "handle": "new-born-baby-essentials-gift-combo-box-0-3-months-2",
+            "title": "New Born Baby Essentials Gift Combo Box 0-6 Months - 27 Items",
+            "image": "//www.momshome.in/cdn/shop/files/new_9048cc96-bc2d-4d84-bdf7-1bb544e7e37a_533x.jpg?v=1769086868",
+            "price": 2999,
+            "compare_at_price": 8999,
+            "available": true,
+            "discount": 67
+        },
+        {
+            "id": 6747844214869,
+            "handle": "all-muslin-nursing-bedding-gift-set-18-items",
+            "title": "All Muslin Nursing and Bedding Gift set (18 items)",
+            "image": "//www.momshome.in/cdn/shop/files/1_58125a74-c809-4c58-805d-1183c5f49b92_533x.jpg?v=1725530705",
+            "price": 6999,
+            "compare_at_price": 15999,
+            "available": true,
+            "discount": 56
+        },
+        {
+            "id": 8957263970585,
+            "handle": "new-born-baby-winter-essentials-gift-combo-0-3-months-30-items",
+            "title": "New Born Baby Winter Essentials Gift Combo 0-3 Months - 30 Items",
+            "image": "//www.momshome.in/cdn/shop/files/30_items_muslin_533x.png?v=1729077210",
+            "price": 5999,
+            "compare_at_price": 6999,
+            "available": true,
+            "discount": 14
+        }
+    ],
+    "instagramImages": [
+        {
+            "id": 1,
+            "image": "//www.momshome.in/cdn/shop/files/10_5e30a33e-7c9a-4a8f-ba88-739c76c49eaa.jpg?v=1725026338",
+            "alt": "Instagram 1"
+        },
+        {
+            "id": 2,
+            "image": "//www.momshome.in/cdn/shop/files/20_24d1b9f8-59b5-48d2-87d2-38904269dda0.jpg?v=1725026338",
+            "alt": "Instagram 2"
+        },
+        {
+            "id": 3,
+            "image": "//www.momshome.in/cdn/shop/files/30.jpg?v=1725026338",
+            "alt": "Instagram 3"
+        },
+        {
+            "id": 4,
+            "image": "//www.momshome.in/cdn/shop/files/40.jpg?v=1725026338",
+            "alt": "Instagram 4"
+        },
+        {
+            "id": 5,
+            "image": "//www.momshome.in/cdn/shop/files/50_25317bb7-1dec-4be2-9010-70419ee9a8fc.jpg?v=1725026338",
+            "alt": "Instagram 5"
+        },
+        {
+            "id": 6,
+            "image": "//www.momshome.in/cdn/shop/files/60.jpg?v=1725026338",
+            "alt": "Instagram 6"
+        }
+    ],
+    "newArrivalsProducts": [
+        {
+            "id": 10270844715289,
+            "handle": "t-shirt-shorts-co-ord-set-for-kids-elegant-comfortable-summer-wear-organic-cotton-clothing-set-little-heart-pack-of-1",
+            "title": "T-Shirt & Shorts Co-ord Set for Kids | Elegant & Comfortable Summer Wear | Organic Cotton Clothing Set | Little Heart | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/t-shirtshortheart_533x.jpg?v=1771053793",
+            "price": 499,
+            "compare_at_price": 849,
+            "available": true,
+            "discount": 41,
+            "variants": [
+                {
+                    "id": 51982726103321,
+                    "title": "0-3 Months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": true,
+                    "sku": "MHHRTTSHIRTSHORT0TO3"
+                },
+                {
+                    "id": 51982726136089,
+                    "title": "3-6 Months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": false,
+                    "sku": "MHHRTTSHIRTSHORT3TO6"
+                },
+                {
+                    "id": 51982726168857,
+                    "title": "6-12 Months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": true,
+                    "sku": "MHHRTTSHIRTSHORT6TO12"
+                },
+                {
+                    "id": 51982726201625,
+                    "title": "12-18 months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": true,
+                    "sku": "MHHRTTSHIRTSHORT12TO18"
+                }
+            ]
+        },
+        {
+            "id": 10270366007577,
+            "handle": "organic-cotton-jhabla-pyjama-for-new-born-full-sleeve-baby-jabla-and-baby-pajama-co-ord-set-0-12-months-bunny-set-of-1",
+            "title": "Organic Cotton Jhabla & Pyjama For New Born | Full Sleeve Baby Jabla and Baby Pajama Co-Ord Set | Bunny | Set of 1",
+            "image": "//www.momshome.in/cdn/shop/files/t-shirt_pajama_mockup_2_jpg_533x.jpg?v=1770893419",
+            "price": 699,
+            "compare_at_price": 1999,
+            "available": true,
+            "discount": 65,
+            "variants": [
+                {
+                    "id": 51979961139481,
+                    "title": "6-12 Months",
+                    "price": 699,
+                    "compare_at_price": 1999,
+                    "available": true,
+                    "sku": "MHJHABLAPAYJAMABNY6TO12P1"
+                },
+                {
+                    "id": 51980226429209,
+                    "title": "1-2 Years",
+                    "price": 699,
+                    "compare_at_price": 1999,
+                    "available": true,
+                    "sku": "MHJHABLAPAYJAMABNY1TO2P1"
+                },
+                {
+                    "id": 51980226461977,
+                    "title": "2-3 Years",
+                    "price": 699,
+                    "compare_at_price": 1999,
+                    "available": true,
+                    "sku": "MHJHABLAPAYJAMABNY2TO3P1"
+                }
+            ]
+        },
+        {
+            "id": 10270844813593,
+            "handle": "t-shirt-shorts-co-ord-set-for-kids-elegant-comfortable-summer-wear-organic-cotton-clothing-set-avocado-pack-of-1",
+            "title": "T-Shirt & Shorts Co-ord Set for Kids | Elegant & Comfortable Summer Wear | Organic Cotton Clothing Set | Avocado | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/t-shirtshortavocado_533x.jpg?v=1771053890",
+            "price": 499,
+            "compare_at_price": 849,
+            "available": true,
+            "discount": 41,
+            "variants": [
+                {
+                    "id": 51982726824217,
+                    "title": "0-3 Months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": true,
+                    "sku": "MHAVDOTSHIRTSHORT0TO3"
+                },
+                {
+                    "id": 51982726856985,
+                    "title": "3-6 Months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": false,
+                    "sku": "MHAVDOTSHIRTSHORT3TO6"
+                },
+                {
+                    "id": 51982726889753,
+                    "title": "6-12 Months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": true,
+                    "sku": "MHAVDOTSHIRTSHORT6TO12"
+                },
+                {
+                    "id": 51982726922521,
+                    "title": "12-18 months",
+                    "price": 499,
+                    "compare_at_price": 849,
+                    "available": true,
+                    "sku": "MHAVDOTSHIRTSHORT12TO18"
+                }
+            ]
+        },
+        {
+            "id": 10254623277337,
+            "handle": "organic-cotton-newborn-baby-clothing-set-baby-shower-gift-hamper-kimono-top-pyjama-cap-set-0-6-months-pack-of-3",
+            "title": "Organic Cotton Newborn Baby Clothing Set | Baby Shower Gift Hamper | Kimono Top, Pyjama & Cap Set | 0-6 Months | Pack of 3",
+            "image": "//www.momshome.in/cdn/shop/files/12_8eb50e2d-d12b-4f9e-97aa-b9dee95d1459_533x.jpg?v=1771246742",
+            "price": 549,
+            "compare_at_price": 999,
+            "available": true,
+            "discount": 45,
+            "variants": [
+                {
+                    "id": 51920802840857,
+                    "title": "0-3 Months",
+                    "price": 549,
+                    "compare_at_price": 999,
+                    "available": true,
+                    "sku": "MHKIMOPAJCAPLMN0TO3P3"
+                },
+                {
+                    "id": 51920802873625,
+                    "title": "3-6 Months",
+                    "price": 549,
+                    "compare_at_price": 999,
+                    "available": true,
+                    "sku": "MHKIMOPAJCAPLMN3TO6P3"
+                }
+            ]
+        },
+        {
+            "id": 10247469859097,
+            "handle": "organic-cotton-newborn-baby-clothing-set-baby-shower-gift-hamper-kimono-onesie-payjama-cap-set-0-6-months-pack-of-3",
+            "title": "Organic Cotton Newborn Baby Clothing Set | Baby Shower Gift Hamper | Kimono Onesie, Pyjama & Cap Set | 0-6 Months | Pack of 3",
+            "image": "//www.momshome.in/cdn/shop/files/MHKIMOPAJCAPAVACADO0TO3P3_1_533x.jpg?v=1769082167",
+            "price": 549,
+            "compare_at_price": 999,
+            "available": true,
+            "discount": 45,
+            "variants": [
+                {
+                    "id": 51887761129753,
+                    "title": "0-3 Months",
+                    "price": 549,
+                    "compare_at_price": 999,
+                    "available": false,
+                    "sku": "MHKIMOPAJCAPAVACADO0TO3P3"
+                },
+                {
+                    "id": 51887761162521,
+                    "title": "3-6 Months",
+                    "price": 549,
+                    "compare_at_price": 999,
+                    "available": true,
+                    "sku": "MHKIMOPAJCAPAVACADO3TO6P3"
+                }
+            ]
+        },
+        {
+            "id": 10249401532697,
+            "handle": "winter-warm-woollen-full-sleeve-sweater-for-baby-dino-3-18-months-pack-of-1",
+            "title": "Winter Warm Woollen Full Sleeve Sweater For Baby | Dino | 3-18 Months | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/8_bd60bf69-b31f-436a-944e-6028b5c8beb6_533x.jpg?v=1769254344",
+            "price": 699,
+            "compare_at_price": 1999,
+            "available": false,
+            "discount": 65
+        },
+        {
+            "id": 10233996017945,
+            "handle": "organic-muslin-baby-play-mat-soft-cotton-baby-floor-mat-for-newborns-toddlers-washable-skin-friendly-playmat-100x100-cm",
+            "title": "Organic Muslin Baby Play Mat | Soft Cotton Baby Floor Mat for Newborns & Toddlers | 100x100 CM",
+            "image": "//www.momshome.in/cdn/shop/files/1_67bead1a-726f-4bc9-8f6b-d396197eb3b2_533x.jpg?v=1767613434",
+            "price": 799,
+            "compare_at_price": 1999,
+            "available": false,
+            "discount": 60
+        },
+        {
+            "id": 10232587321625,
+            "handle": "winter-warm-woolen-baby-cap-for-0-12-months-soft-infant-beanie-hat-newborn-winter-headwear-abc-pack-of-2",
+            "title": "Winter Warm Woolen Baby Cap For 0–12 Months | Soft Infant Beanie Hat | Newborn Winter Headwear | Pack of 2",
+            "image": "//www.momshome.in/cdn/shop/files/p2-_5_533x.jpg?v=1767357675",
+            "price": 349,
+            "compare_at_price": 999,
+            "available": true,
+            "discount": 65,
+            "variants": [
+                {
+                    "id": 51823562621209,
+                    "title": "Pink & Yellow",
+                    "price": 349,
+                    "compare_at_price": 999,
+                    "available": true,
+                    "sku": "MHWOLCAPABCPINKYLWP2"
+                },
+                {
+                    "id": 51823562653977,
+                    "title": "Green & Sky Blue",
+                    "price": 349,
+                    "compare_at_price": 999,
+                    "available": true,
+                    "sku": "MHWOLCAPABCGRNSBLUP2"
+                },
+                {
+                    "id": 51823562686745,
+                    "title": "Barbie Pink & Peach",
+                    "price": 349,
+                    "compare_at_price": 999,
+                    "available": true,
+                    "sku": "MHWOLCAPABCBPINKPECHP2"
+                }
+            ]
+        }
+    ],
+    "offers": [
+        {
+            "id": "image_ELwn7y",
+            "image": "//www.momshome.in/cdn/shop/files/4_9_b4055185-908d-448a-b6e7-a0abe567ecf2_533x.jpg?v=1767012064",
+            "link": "https://www.momshome.in/apps/gbb/easybundle/1?page=addProductsPage1&currentFlow=byob",
+            "title": "Build Your Own Hospital Bag",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#6cad96"
+        },
+        {
+            "id": "image_kTGHzp",
+            "image": "//www.momshome.in/cdn/shop/files/3_13_98ce4ea5-4ecd-4dad-90b9-a465462202c0_533x.jpg?v=1767012094",
+            "link": "https://www.momshome.in/apps/gbb/easybundle/8?page=addProductsPage1&currentFlow=byob",
+            "title": "Pick Any 3 At Rs 2799",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#6cad96"
+        },
+        {
+            "id": "image_TgFxPG",
+            "image": "//www.momshome.in/cdn/shop/files/2_12_7e29b1d1-6e8f-4349-a9d0-6af34d00e85c_533x.jpg?v=1767012130",
+            "link": "https://www.momshome.in/apps/gbb/easybundle/6?page=addProductsPage1&currentFlow=byob",
+            "title": "Pick Any 3 for ₹499",
+            "buttonText": "SHOP NOW",
+            "buttonColor": "#6cad96"
+        }
+    ],
+    "trendingProducts": [
+        {
+            "id": 10226315362585,
+            "handle": "newborn-baby-homecoming-gift-set-newborn-essential-gift-hamper-soft-gentle-thoughtful-newborn-gift-pack-of-5-copy",
+            "title": "Moms Home Newborn Baby Homecoming Gift Set | Newborn Essential Gift Hamper | Soft, Gentle & Thoughtful Newborn Gift | Pack of 5",
+            "image": "//www.momshome.in/cdn/shop/files/WhatsAppImage2025-12-27at11.59.09AM_533x.jpg?v=1766843681",
+            "price": 999,
+            "compare_at_price": 1399,
+            "available": true,
+            "discount": 29,
+            "variants": [
+                {
+                    "id": 51806873125145,
+                    "title": "0-3 Months",
+                    "price": 999,
+                    "compare_at_price": 1399,
+                    "available": false,
+                    "sku": "MHBBKIMONOONESECMB0TO3P5"
+                },
+                {
+                    "id": 51806873157913,
+                    "title": "3-6 Months",
+                    "price": 999,
+                    "compare_at_price": 1399,
+                    "available": true,
+                    "sku": "MHBBKIMONOONESECMB3TO6P5"
+                },
+                {
+                    "id": 51806873190681,
+                    "title": "6-12 Months",
+                    "price": 999,
+                    "compare_at_price": 1399,
+                    "available": true,
+                    "sku": "MHBBKIMONOONESECMB6TO12P5"
+                }
+            ]
+        },
+        {
+            "id": 10226303500569,
+            "handle": "new-born-summer-essential-clothing-for-boys-girls-organic-cotton-baby-clothing-set-baby-shower-gift-hamper-0-6-months-avocado-pack-of-6-copy",
+            "title": "Newborn Baby Home coming Gift Set | New Born Essential Gift Hamper | Pack of 4",
+            "image": "//www.momshome.in/cdn/shop/files/WhatsApp_Image_2025-12-27_at_1.31.17_PM_533x.jpg?v=1766844162",
+            "price": 1499,
+            "compare_at_price": 2399,
+            "available": true,
+            "discount": 38,
+            "variants": [
+                {
+                    "id": 51806821908761,
+                    "title": "0-3 Months",
+                    "price": 1499,
+                    "compare_at_price": 2399,
+                    "available": true,
+                    "sku": "MHONESEHTOWELBBPB0TO3P4"
+                },
+                {
+                    "id": 51806821941529,
+                    "title": "3-6 Months",
+                    "price": 1499,
+                    "compare_at_price": 2399,
+                    "available": true,
+                    "sku": "MHONESEHTOWELBBPB3TO6P4"
+                },
+                {
+                    "id": 51806835966233,
+                    "title": "6-12 Months",
+                    "price": 1499,
+                    "compare_at_price": 2399,
+                    "available": true,
+                    "sku": "MHONESEHTOWELBBPB6TO12P4"
+                }
+            ]
+        },
+        {
+            "id": 10226308481305,
+            "handle": "newborn-baby-home-coming-gift-set-new-born-essential-gift-hamper-pack-of-4-copy",
+            "title": "Newborn Baby Home coming Gift Set | New Born Essential Gift Hamper | Pack of 4",
+            "image": "//www.momshome.in/cdn/shop/files/image_10_df617731-e1e7-4d11-a388-2fd98bfce829_533x.jpg?v=1766840161",
+            "price": 1449,
+            "compare_at_price": 1999,
+            "available": true,
+            "discount": 28,
+            "variants": [
+                {
+                    "id": 51806838751513,
+                    "title": "0-3 Months",
+                    "price": 1449,
+                    "compare_at_price": 1999,
+                    "available": true,
+                    "sku": "MHSWDLONESEBBTOY0TO3P4"
+                },
+                {
+                    "id": 51806838784281,
+                    "title": "3-6 Months",
+                    "price": 1449,
+                    "compare_at_price": 1999,
+                    "available": true,
+                    "sku": "MHSWDLONESEBBTOY3TO6P4"
+                },
+                {
+                    "id": 51806838817049,
+                    "title": "6-12 Months",
+                    "price": 1449,
+                    "compare_at_price": 1999,
+                    "available": true,
+                    "sku": "MHSWDLONESEBBTOY6TO12P4"
+                }
+            ]
+        },
+        {
+            "id": 9608183152921,
+            "handle": "baby-quilt-organic-cotton-blanket-100x150-cm-0-5-year-pack-of-1",
+            "title": "Baby Quilt Organic Cotton | Blanket | 100x150 CM | 0-5 Year | Pack of 1",
+            "image": "//www.momshome.in/cdn/shop/files/ELEPHANTBABYQULIT_3_3_533x.webp?v=1766121398",
+            "price": 1399,
+            "compare_at_price": 2799,
+            "available": true,
+            "discount": 50,
+            "variants": [
+                {
+                    "id": 49381547278617,
+                    "title": "Tiger",
+                    "price": 1399,
+                    "compare_at_price": 2799,
+                    "available": true,
+                    "sku": "MHOCQ3GREEN"
+                },
+                {
+                    "id": 51838865309977,
+                    "title": "Flower",
+                    "price": 1599,
+                    "compare_at_price": 2799,
+                    "available": true,
+                    "sku": "MHBABYQUILTP1FLWR"
+                },
+                {
+                    "id": 50153517449497,
+                    "title": "Lemon",
+                    "price": 1499,
+                    "compare_at_price": 2799,
+                    "available": true,
+                    "sku": "MHBABYQUILTP1LEMON"
+                },
+                {
+                    "id": 49575511032089,
+                    "title": "Santa",
+                    "price": 1399,
+                    "compare_at_price": 2799,
+                    "available": true,
+                    "sku": "MHQUILTSANTA100X150"
+                }
+            ]
+        },
+        {
+            "id": 9845053194521,
+            "handle": "baby-home-coming-outfit-baby-shower-gift-hamper-joyworld-0-3-months-pack-of-7",
+            "title": "Baby Home Coming Outfit Set | Baby Shower Gift Hamper | Baby Essential Clothes Set | Joyworld | 0-3 Months | Pack of 7",
+            "image": "//www.momshome.in/cdn/shop/files/joy_world_2_f0d41ba8-2e41-46ed-9a3a-eb19dcc7e00c_533x.jpg?v=1757758566",
+            "price": 1299,
+            "compare_at_price": 1499,
+            "available": false,
+            "discount": 13
+        },
+        {
+            "id": 9788195143961,
+            "handle": "organic-cotton-new-born-gift-set-0-12-months-6-items-lemon",
+            "title": "Organic Cotton Baby Essentials Gift Set | Baby Shower Gift Hamper | Baby Clothing Gift Combo | Lemon | Pack of 6",
+            "image": "//www.momshome.in/cdn/shop/files/gg_533x.jpg?v=1754649687",
+            "price": 699,
+            "compare_at_price": 949,
+            "available": true,
+            "discount": 26,
+            "variants": [
+                {
+                    "id": 50058828022041,
+                    "title": "3-6 Months",
+                    "price": 699,
+                    "compare_at_price": 949,
+                    "available": true,
+                    "sku": "MHLEMONFS6GIFT3TO6"
+                }
+            ]
+        },
+        {
+            "id": 9940172931353,
+            "handle": "organic-cotton-baby-clothing-set-baby-essential-clothes-for-boys-girls-baby-shower-gift-hamper-0-6-months-avocado-pack-of-6",
+            "title": "Organic Cotton Baby Clothing Set | Baby Essential Clothes For Boys & Girls | Baby Shower Gift Hamper | 0-6 Months | Avocado | Pack of 6",
+            "image": "//www.momshome.in/cdn/shop/files/Avocado_Kimono_set_533x.png?v=1751529630",
+            "price": 899,
+            "compare_at_price": 949,
+            "available": true,
+            "discount": 5,
+            "variants": [
+                {
+                    "id": 50827550359833,
+                    "title": "3-6 Months",
+                    "price": 899,
+                    "compare_at_price": 949,
+                    "available": true,
+                    "sku": "MHAVCDOGIFT3TO6P6"
+                }
+            ]
+        },
+        {
+            "id": 9849834340633,
+            "handle": "new-born-baby-muslin-gift-hamper-lemon-pack-of-10",
+            "title": "New Born Baby Muslin Gift Hamper | Baby Shower Gift Set | Baby Essential Clothes Set | Lemon | Pack of 10",
+            "image": "//www.momshome.in/cdn/shop/files/muslin_lemon_10_items_set_1_533x.jpg?v=1747481451",
+            "price": 2499,
+            "compare_at_price": 2799,
+            "available": true,
+            "discount": 11,
+            "variants": [
+                {
+                    "id": 50367791300889,
+                    "title": "0-3 Months",
+                    "price": 2499,
+                    "compare_at_price": 2799,
+                    "available": true,
+                    "sku": "MHLEMMUS10GIFT0TO3"
+                },
+                {
+                    "id": 50367791333657,
+                    "title": "3-6 Months",
+                    "price": 2499,
+                    "compare_at_price": 2799,
+                    "available": true,
+                    "sku": "MHLEMMUS10GIFT3TO6"
+                },
+                {
+                    "id": 50367791366425,
+                    "title": "6-12 Months",
+                    "price": 2499,
+                    "compare_at_price": 2799,
+                    "available": true,
+                    "sku": "MHLEMMUS10GIFT6TO12"
+                }
+            ]
+        }
+    ],
+    "badges": [
+        {
+            "id": "popup1",
+            "image": "https://cdn.shopify.com/s/files/1/0557/7683/7717/files/trusted_by.png?v=1737348840",
+            "alt": "Trusted by 10Lac+ Parents",
+            "content": [
+                "With a legacy of trust, our products are trusted by over 10lac + parents who value our on-time delivery and the softness of 100% organic cotton and muslin-friendly essentials.",
+                "Each piece is carefully designed to provide ultimate comfort, safety, and care for your baby's delicate skin—trusted by those who prioritize only the best for their little ones."
+            ]
+        },
+        {
+            "id": "popup2",
+            "image": "https://cdn.shopify.com/s/files/1/0557/7683/7717/files/skin_frndly.png?v=1737348840",
+            "alt": "Skin Friendly",
+            "content": [
+                "Our baby clothing is crafted with skin-friendly materials, offering a softness that feels like a gentle touch.",
+                "Breathable and ultra-soft, they provide ultimate comfort while keeping your baby cozy and calm.",
+                "With every piece, we prioritize your baby's well-being, ensuring only the safest touch for their precious skin."
+            ]
+        },
+        {
+            "id": "popup3",
+            "image": "https://cdn.shopify.com/s/files/1/0557/7683/7717/files/azo_free.png?v=1737348840",
+            "alt": "Azo Free",
+            "content": [
+                "At the heart of our baby clothing, we prioritize your little one's safety and comfort.",
+                "That's why every print we create is designed with azo-free dyes, ensuring no harmful chemicals touch their delicate skin.",
+                "From playful patterns to vibrant colors, each piece is crafted with care that your baby is dressed in the safest, most natural fabrics."
+            ]
+        },
+        {
+            "id": "popup4",
+            "image": "https://cdn.shopify.com/s/files/1/0557/7683/7717/files/100_cotton.png?v=1737348840",
+            "alt": "100% Cotton",
+            "content": [
+                "Made from 100% organic cotton, our baby essentials are as comforting as a mother's hug.",
+                "Soft, breathable, and free from harmful chemicals, they keep your little one cozy and content all day long.",
+                "Gentle on delicate baby skin and kind to the planet, this natural fabric provides the perfect balance of safety, comfort, and sustainability—everything your baby deserves!"
+            ]
+        },
+        {
+            "id": "popup5",
+            "image": "https://cdn.shopify.com/s/files/1/0557/7683/7717/files/made_in_india.png?v=1737348840",
+            "alt": "Made in India",
+            "content": [
+                "Our baby clothing and essentials are Proudly made in India with 100% organic materials, ensuring quality and safety.",
+                "By supporting local artisans, we empower rural women, creating opportunities, growth, employment and skill development.",
+                "Every purchase helps strengthen India's economy and fosters a sustainable, self-reliant future for both your baby and communities."
+            ]
+        },
+        {
+            "id": "popup6",
+            "image": "https://cdn.shopify.com/s/files/1/0557/7683/7717/files/one_step_soloution.png?v=1737348840",
+            "alt": "One Step Solution",
+            "content": [
+                "Your ultimate destination for everything your baby needs! From the softest nappies and snuggly quilts to our top-selling hospital bags with all the essentials, diaper bags, swaddles, and beyond—we've thoughtfully curated each item.",
+                "Crafted with love, every piece is designed to ensure your little one's happiness at every step."
+            ]
+        }
+    ]
+}
