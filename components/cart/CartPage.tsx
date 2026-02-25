@@ -122,7 +122,7 @@ export default function CartPage() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                         </svg>
                         <h2 className="text-xl font-medium text-gray-900 mb-2">Your cart is empty</h2>
-                        <p className="text-gray-500 mb-6">Looks like you haven't added any items to your cart yet.</p>
+                        <p className="text-gray-500 mb-6">Looks like you haven&apos;t added any items to your cart yet.</p>
                         <Link
                             href="/"
                             className="inline-block px-6 py-3 bg-[#ab91df] text-white rounded-md hover:bg-[#9a7fc9] transition-colors"

@@ -33,7 +33,7 @@ export default function TermsConditionsPage() {
 
                                 {/* Introduction */}
                                 <p>
-                                    All information, products and services displayed on the www.momshome.in website constitute an "invitation to offer". Your order for purchase constitutes your "offer" which shall be subject to the terms and conditions as listed below. www.momshome.in the website has the right to accept or reject your offer without assigning any reason thereof.
+                                    All information, products and services displayed on the www.momshome.in website constitute an &quot;invitation to offer&quot;. Your order for purchase constitutes your &quot;offer&quot; which shall be subject to the terms and conditions as listed below. www.momshome.in the website has the right to accept or reject your offer without assigning any reason thereof.
                                 </p>
 
                                 <p>
@@ -51,7 +51,7 @@ export default function TermsConditionsPage() {
                                     <div className="border-b border-gray-100 pb-4">
                                         <p className="font-semibold text-[#232323] mb-2">1.</p>
                                         <p className="text-gray-600">
-                                            We have made every effort to display the colour of our products that appear on the site as accurately as possible. However, as the actual colours you see will depend on your monitor, we cannot guarantee that your monitor's display of colour will be accurate.
+                                            We have made every effort to display the colour of our products that appear on the site as accurately as possible. However, as the actual colours you see will depend on your monitor, we cannot guarantee that your monitor&apos;s display of colour will be accurate.
                                         </p>
                                     </div>
 
@@ -75,7 +75,7 @@ export default function TermsConditionsPage() {
                                     <div className="border-b border-gray-100 pb-4">
                                         <p className="font-semibold text-[#232323] mb-2">4.</p>
                                         <p className="text-gray-600">
-                                            Greenwood Organics will take "Full Responsibility" of your Order if the Order has been shipped to any of the major cities, where we used "Private Courier Companies" (eg. Blue Dart, First Flight, Safex, DHL, Dehlivery, Xspresses Bee etc.) to ship your order.
+                                            Greenwood Organics will take &quot;Full Responsibility&quot; of your Order if the Order has been shipped to any of the major cities, where we used &quot;Private Courier Companies&quot; (eg. Blue Dart, First Flight, Safex, DHL, Dehlivery, Xspresses Bee etc.) to ship your order.
                                         </p>
                                     </div>
 
@@ -123,7 +123,7 @@ export default function TermsConditionsPage() {
                                     <div className="border-b border-gray-100 pb-4">
                                         <p className="font-semibold text-[#232323] mb-2">10.</p>
                                         <p className="text-gray-600">
-                                            Greenwood Organics will not be liable for any type or kind of credit card fraud. The liability to use a card fraudulently will be on the user and the onus to 'prove otherwise' shall be exclusively on the user. The User must exclusively use his/her own card on the site.
+                                            Greenwood Organics will not be liable for any type or kind of credit card fraud. The liability to use a card fraudulently will be on the user and the onus to &apos;prove otherwise&apos; shall be exclusively on the user. The User must exclusively use his/her own card on the site.
                                         </p>
                                     </div>
 

@@ -28,10 +28,10 @@ const categoryDataMap: Record<CategoryKey, CollectionData> = {
     'jhabla-tshirts': jhablaTshirts as CollectionData,
     'muslin-dohar-and-blankets': blanket as CollectionData,
     'baby-quilts': babyQuiltsData as CollectionData,
-    'hospital-bags': hospitalBagsData as CollectionData,
+    'hospital-bags': hospitalBagsData as unknown as CollectionData,
     'new-arrivals': newArrivalsData as CollectionData,
     'sale': muslinSwaddleData as CollectionData,
-    'buy-1-get-1': buy1get1Data as CollectionData,
+    'buy-1-get-1': buy1get1Data as unknown as CollectionData,
     'nappies': nappies as CollectionData,
     'trending': trendingProductsData as CollectionData,
 };

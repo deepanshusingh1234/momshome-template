@@ -4,9 +4,14 @@
 import { useState, useEffect } from "react";
 import { CollectionProduct } from "@/types/collection";
 
+interface Variant {
+    compare_at_price: number;
+    price: number;
+}
+
 interface StickyAddToCartProps {
     product: CollectionProduct;
-    selectedVariant: any;
+    selectedVariant: Variant;
     quantity: number;
     onQuantityChange: (type: "increment" | "decrement") => void;
     selectedOptions: string[];

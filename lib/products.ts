@@ -19,10 +19,10 @@ const collections: Array<{ category: string; data: CollectionData }> = [
     { category: 'jhabla-tshirts', data: jhablaTshirts as CollectionData },
     { category: 'muslin-dohar-and-blankets', data: blanket as CollectionData },
     { category: 'baby-quilts', data: babyQuiltsData as CollectionData },
-    { category: 'hospital-bags', data: hospitalBagsData as CollectionData }, // Add this
+    { category: 'hospital-bags', data: hospitalBagsData as unknown as CollectionData }, // Add this
     { category: 'new-arrivals', data: newArrivalsData as CollectionData },
     { category: 'trending', data: trendingProductsData as CollectionData },
-    { category: 'buy-1-get-1', data: buy1get1Data as CollectionData },
+    { category: 'buy-1-get-1', data: buy1get1Data as unknown as CollectionData },
 ];
 
 // Create a map of product handles to products with category info

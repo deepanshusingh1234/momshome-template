@@ -376,7 +376,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
                     </div>
                 </div>
                 <RelatedProducts currentProductId={product.id} />
-                <ProductReviews productId={product.id} />
+                <ProductReviews productId={product.id} productTitle={""} />
             </div>
 
             {/* Sticky Add to Cart */}

@@ -1,5 +1,5 @@
 // utils/filterUtils.ts
-import { CollectionProduct } from "@/types/collection";
+import { CollectionProduct, FilterGroup } from "@/types/collection";
 
 export const filterProducts = (
     products: CollectionProduct[],

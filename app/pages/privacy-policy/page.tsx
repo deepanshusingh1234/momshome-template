@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
                                     <li>Contact E-mail address</li>
                                 </ul>
                                 <p className="text-gray-600 leading-relaxed mb-3">
-                                    Apart from this, our systems gather certain details about your computer's internet connection like your IP address when you visit our site. Your IP address does not identify you personally. We use this information to deliver our web pages to you upon request, to customize our site as per your interest, to calculate the number of visitors on our site and to know the geographic locations from where our visitors come.
+                                    Apart from this, our systems gather certain details about your computer&apos;s internet connection like your IP address when you visit our site. Your IP address does not identify you personally. We use this information to deliver our web pages to you upon request, to customize our site as per your interest, to calculate the number of visitors on our site and to know the geographic locations from where our visitors come.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed">
                                     We do not allow any unauthorized person or organization be it other members, visitors, and anyone not in our organization to use any information collected from you.
@@ -129,7 +129,7 @@ export default function PrivacyPolicyPage() {
                                 </p>
 
                                 <p className="text-gray-600 leading-relaxed mb-4">
-                                    It's also Earth-friendly and GOTS certified to meet the highest global standard for organic textiles. Best of all, we give parents a break by delivering our premium products at surprisingly affordable prices.
+                                    It&apos;s also Earth-friendly and GOTS certified to meet the highest global standard for organic textiles. Best of all, we give parents a break by delivering our premium products at surprisingly affordable prices.
                                 </p>
 
                                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -146,11 +146,11 @@ export default function PrivacyPolicyPage() {
                                 </h5>
 
                                 <ul className="list-disc pl-6 space-y-1 text-gray-600 mb-4">
-                                    <li>It's best for baby's delicate skin</li>
+                                    <li>It&apos;s best for baby&apos;s delicate skin</li>
                                     <li>It Feels Heavenly soft</li>
                                     <li>It lasts wash after wash</li>
-                                    <li>It's Earth and farmer friendly</li>
-                                    <li>It's GOTS certified 100% organic</li>
+                                    <li>It&apos;s Earth and farmer friendly</li>
+                                    <li>It&apos;s GOTS certified 100% organic</li>
                                 </ul>
 
                                 <div className="mt-6 pt-4 border-t border-gray-200">

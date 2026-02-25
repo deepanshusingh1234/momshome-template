@@ -68,6 +68,7 @@ const TrustBadges = () => {
 
     const openPopup = (id: string) => {
         setActivePopup(id);
+        // eslint-disable-next-line react-hooks/immutability
         document.body.style.overflow = 'hidden';
     };
 

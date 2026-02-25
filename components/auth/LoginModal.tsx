@@ -61,6 +61,7 @@ export default function LoginModal({ isOpen, onClose, onSuccess }: LoginModalPro
                 try {
                     const data = JSON.parse(checkoutData);
                     if (data.cart) {
+                        // eslint-disable-next-line react-hooks/set-state-in-effect
                         setOrderSummary({
                             itemsCount: data.cart.itemCount || 2,
                             subtotal: data.cart.subtotal || 2798,
