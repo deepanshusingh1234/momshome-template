@@ -1,3 +1,4 @@
+// types/collection.ts
 export interface FilterOption {
     id: string;
     label: string;
@@ -19,6 +20,15 @@ export interface SortOption {
     label: string;
 }
 
+export interface ProductVariant {
+    id: number;
+    title: string;
+    price: number;
+    compare_at_price: number;
+    available: boolean;
+    sku: string;
+}
+
 export interface CollectionProduct {
     id: number;
     handle: string;
@@ -30,14 +40,13 @@ export interface CollectionProduct {
     discount: number;
     rating?: number;
     reviewCount?: number;
-    variants?: Array<{
-        id: number;
-        title: string;
-        price: number;
-        compare_at_price: number;
-        available: boolean;
-        sku: string;
-    }>;
+    variants?: ProductVariant[];
+    // Add these fields for filtering
+    productType?: string;  // This will match with productTypes filter
+    brand?: string;        // This will match with brands filter
+    color?: string;        // This will match with colors filter
+    design?: string;       // This will match with designs filter
+    tags?: string[];       // Optional: for additional filtering
 }
 
 export interface CollectionData {

@@ -64,7 +64,7 @@ const SpotlightOffers = () => {
                                     </h3>
                                     <Link
                                         href={offer.link}
-                                        className="inline-block px-8 py-3 bg-[#ab91df] text-white font-semibold uppercase text-sm rounded-full hover:bg-[#5b9a82] transition-colors"
+                                        className="inline-block px-8 py-3 bg-[#ab91df] text-white font-semibold uppercase text-sm rounded-full hover:bg-[#ab91df] transition-colors"
                                     >
                                         {offer.buttonText}
                                     </Link>

@@ -7,7 +7,7 @@ const moreFeaturedProducts = [
         id: "muslin-blanket",
         image: "//www.momshome.in/cdn/shop/files/ALL_PRINT_BLANKET_1_aa071753-e305-4f18-97b1-1af0e3c06460_533x.jpg?v=1731744236",
         title: "Muslin Blanket",
-        link: "https://www.momshome.in/collections/blanket-dohar",
+        link: "shop/muslin-dohar-and-blankets",
         buttonText: "SHOP NOW",
         buttonColor: "#6cad96"
     },
@@ -15,7 +15,7 @@ const moreFeaturedProducts = [
         id: "muslin-swaddle",
         image: "//www.momshome.in/cdn/shop/files/12_4_f179fabe-84e2-4cd3-9a0f-b2c0f14b4694_533x.jpg?v=1731764209",
         title: "Muslin Swaddle",
-        link: "https://www.momshome.in/collections/muslin-swaddle",
+        link: "/shop/muslin-swaddle",
         buttonText: "SHOP NOW",
         buttonColor: "#6cad96"
     },
@@ -23,7 +23,7 @@ const moreFeaturedProducts = [
         id: "nappy-essentials",
         image: "//www.momshome.in/cdn/shop/files/1DRYSHEET_1PADDEDUNDERWEAR_1SWADDLE_2NAPPY_2_257d5f11-9a60-4d87-a3b0-4b1a24e14522_533x.jpg?v=1731743867",
         title: "Nappy Essentials",
-        link: "https://www.momshome.in/collections/nappies",
+        link: "/shop/nappies",
         buttonText: "SHOP NOW",
         buttonColor: "#6cad96"
     }

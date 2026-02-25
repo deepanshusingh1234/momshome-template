@@ -272,7 +272,7 @@ const Footer = () => {
                 </div>
 
                 {/* Footer Bottom */}
-                <div className="footer__content-bottom bg-[#232323] py-5 border-t border-[#07d0bb]">
+                <div className="footer__content-bottom bg-[#232323] py-5 border-t border-[#232323]">
                     <div className="container container-1370 max-w-7xl mx-auto px-4">
                         <div className="footer-block__bottom flex flex-col md:flex-row justify-between items-center">
                             <div className="footer__column-item footer__copyright">

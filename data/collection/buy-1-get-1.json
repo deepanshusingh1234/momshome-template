@@ -165,6 +165,14 @@
             "discount": 60,
             "rating": 0,
             "reviewCount": 0,
+            "productType": "Kimono",
+            "brand": "Moms Home",
+            "design": "",
+            "ageGroup": [
+                "6-12 Months",
+                "12-18 Months",
+                "24-36 Months"
+            ],
             "variants": [
                 {
                     "id": 51427214524697,
@@ -203,6 +211,14 @@
             "discount": 54,
             "rating": 5.0,
             "reviewCount": 1,
+            "productType": "Nappies",
+            "brand": "Moms Home",
+            "design": "",
+            "ageGroup": [
+                "0-3 Months",
+                "3-6 Months",
+                "6-12 Months"
+            ],
             "variants": [
                 {
                     "id": 47168345112857,
@@ -241,6 +257,12 @@
             "discount": 44,
             "rating": 4.5,
             "reviewCount": 2,
+            "productType": "Napkins",
+            "brand": "Moms Home",
+            "design": "",
+            "ageGroup": [
+                "0-3 Years"
+            ],
             "variants": [
                 {
                     "id": 40219279687765,
@@ -263,6 +285,13 @@
             "discount": 33,
             "rating": 4.0,
             "reviewCount": 1,
+            "productType": "Shirt & Shorts Set",
+            "brand": "Moms Home",
+            "design": "Lion & Whale",
+            "ageGroup": [
+                "12-24 Months",
+                "24-36 Months"
+            ],
             "variants": [
                 {
                     "id": 49435506999577,
@@ -325,6 +354,14 @@
             "discount": 33,
             "rating": 0,
             "reviewCount": 0,
+            "productType": "Jhabla",
+            "brand": "Moms Home",
+            "design": "",
+            "ageGroup": [
+                "0-3 Months",
+                "3-6 Months",
+                "6-12 Months"
+            ],
             "variants": [
                 {
                     "id": 49429835874585,

@@ -1,20 +1,23 @@
+// components/collection/CollectionSidebar.tsx
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FilterGroup } from "@/types/collection";
 
 interface CollectionSidebarProps {
     filters: FilterGroup;
     isOpen: boolean;
     onClose: () => void;
-    onFilterChange?: (filterType: string, value: string, checked: boolean) => void; // Add callback
+    onFilterChange: (filterType: string, value: string, checked: boolean) => void;
+    selectedFilters?: Record<string, string[]>;
 }
 
 const CollectionSidebar = ({
     filters,
     isOpen,
     onClose,
-    onFilterChange // Add this
+    onFilterChange,
+    selectedFilters: parentSelectedFilters = {}
 }: CollectionSidebarProps) => {
     const [expandedSections, setExpandedSections] = useState<string[]>([
         "availability",
@@ -25,7 +28,12 @@ const CollectionSidebar = ({
         "designs",
     ]);
     const [priceRange, setPriceRange] = useState({ min: 0, max: 1499 });
-    const [selectedFilters, setSelectedFilters] = useState<Record<string, string[]>>({});
+    const [localSelectedFilters, setLocalSelectedFilters] = useState<Record<string, string[]>>(parentSelectedFilters);
+
+    // Sync with parent filters
+    useEffect(() => {
+        setLocalSelectedFilters(parentSelectedFilters);
+    }, [parentSelectedFilters]);
 
     const toggleSection = (section: string) => {
         setExpandedSections((prev) =>
@@ -36,7 +44,8 @@ const CollectionSidebar = ({
     };
 
     const handleFilterChange = (filterType: string, value: string, checked: boolean) => {
-        setSelectedFilters(prev => {
+        // Update local state for UI
+        setLocalSelectedFilters(prev => {
             const currentValues = prev[filterType] || [];
             const newValues = checked
                 ? [...currentValues, value]
@@ -47,13 +56,17 @@ const CollectionSidebar = ({
                 [filterType]: newValues
             };
 
-            // Call the parent callback if provided
-            if (onFilterChange) {
-                onFilterChange(filterType, value, checked);
+            // Remove filter type if no values selected
+            if (newValues.length === 0) {
+                const { [filterType]: _, ...rest } = updated;
+                return rest;
             }
 
             return updated;
         });
+
+        // Call parent callback immediately
+        onFilterChange(filterType, value, checked);
     };
 
     const handlePriceChange = (type: "min" | "max", value: number) => {
@@ -61,15 +74,31 @@ const CollectionSidebar = ({
     };
 
     const applyPriceFilter = () => {
-        console.log("Apply price filter:", priceRange);
-        if (onFilterChange) {
-            onFilterChange("price", `${priceRange.min}-${priceRange.max}`, true);
+        // Remove existing price filter if any
+        if (localSelectedFilters.price) {
+            onFilterChange("price", localSelectedFilters.price[0], false);
         }
+        // Apply new price filter
+        onFilterChange("price", `${priceRange.min}-${priceRange.max}`, true);
     };
 
     const clearFilters = () => {
-        setSelectedFilters({});
+        // Clear all filters by calling parent with each selected filter
+        Object.entries(localSelectedFilters).forEach(([filterType, values]) => {
+            values.forEach(value => {
+                onFilterChange(filterType, value, false);
+            });
+        });
+
         setPriceRange({ min: 0, max: 1499 });
+    };
+
+    const isFilterSelected = (filterType: string, value: string) => {
+        return localSelectedFilters[filterType]?.includes(value) || false;
+    };
+
+    const getFilterCount = (filterType: string) => {
+        return localSelectedFilters[filterType]?.length || 0;
     };
 
     return (
@@ -85,11 +114,11 @@ const CollectionSidebar = ({
             {/* Sidebar */}
             <div
                 className={`
-          fixed lg:static inset-y-0 left-0 w-[85%] max-w-[320px] lg:w-64
-          bg-white z-50 lg:z-auto overflow-y-auto
-          transform transition-transform duration-300 ease-in-out
-          ${isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
-        `}
+                    fixed lg:static inset-y-0 left-0 w-[85%] max-w-[320px] lg:w-64
+                    bg-white z-50 lg:z-auto overflow-y-auto
+                    transform transition-transform duration-300 ease-in-out
+                    ${isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
+                `}
             >
                 <div className="p-4 lg:p-0">
                     {/* Header - Mobile only */}
@@ -102,8 +131,8 @@ const CollectionSidebar = ({
                         </button>
                     </div>
 
-                    {/* Clear Filters Button - Show when filters are selected */}
-                    {Object.keys(selectedFilters).length > 0 && (
+                    {/* Clear Filters Button */}
+                    {Object.keys(localSelectedFilters).length > 0 && (
                         <div className="mb-4">
                             <button
                                 onClick={clearFilters}
@@ -113,39 +142,14 @@ const CollectionSidebar = ({
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                                 Clear all filters
+                                {Object.values(localSelectedFilters).flat().length > 0 && (
+                                    <span className="bg-[#ab91df] text-white px-2 py-0.5 rounded-full text-xs">
+                                        {Object.values(localSelectedFilters).flat().length}
+                                    </span>
+                                )}
                             </button>
                         </div>
                     )}
-
-                    {/* Categories - Static or from props? Consider making this dynamic too */}
-                    <div className="mb-6">
-                        <div
-                            className="flex items-center justify-between cursor-pointer py-2"
-                            onClick={() => toggleSection("categories")}
-                        >
-                            <h3 className="font-semibold text-[#a790d4]">Categories</h3>
-                            <svg
-                                className={`w-4 h-4 transition-transform ${expandedSections.includes("categories") ? "rotate-180" : ""
-                                    }`}
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                            </svg>
-                        </div>
-                        {expandedSections.includes("categories") && (
-                            <div className="mt-2 pl-2">
-                                <ul className="space-y-2">
-                                    <li>
-                                        <a href="#" className="text-sm text-[#3c3c3c] hover:text-[#ab91df]">
-                                            All Categories
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        )}
-                    </div>
 
                     {/* Availability Filter */}
                     {filters.availability && filters.availability.length > 0 && (
@@ -154,10 +158,16 @@ const CollectionSidebar = ({
                                 className="flex items-center justify-between cursor-pointer py-2"
                                 onClick={() => toggleSection("availability")}
                             >
-                                <h3 className="font-semibold text-[#a790d4]">Availability</h3>
+                                <div className="flex items-center gap-2">
+                                    <h3 className="font-semibold text-[#a790d4]">Availability</h3>
+                                    {getFilterCount('availability') > 0 && (
+                                        <span className="bg-[#ab91df] text-white px-2 py-0.5 rounded-full text-xs">
+                                            {getFilterCount('availability')}
+                                        </span>
+                                    )}
+                                </div>
                                 <svg
-                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("availability") ? "rotate-180" : ""
-                                        }`}
+                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("availability") ? "rotate-180" : ""}`}
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -175,13 +185,12 @@ const CollectionSidebar = ({
                                                     id={option.id}
                                                     className="w-4 h-4 text-[#ab91df] border-gray-300 rounded focus:ring-[#ab91df]"
                                                     disabled={option.disabled}
-                                                    checked={selectedFilters.availability?.includes(option.value) || false}
+                                                    checked={isFilterSelected('availability', option.value)}
                                                     onChange={(e) => handleFilterChange('availability', option.value, e.target.checked)}
                                                 />
                                                 <label
                                                     htmlFor={option.id}
-                                                    className={`ml-2 text-sm ${option.disabled ? "text-gray-400" : "text-[#3c3c3c]"
-                                                        }`}
+                                                    className={`ml-2 text-sm ${option.disabled ? "text-gray-400" : "text-[#3c3c3c]"}`}
                                                 >
                                                     {option.label} <span className="text-gray-400">({option.count})</span>
                                                 </label>
@@ -199,10 +208,16 @@ const CollectionSidebar = ({
                             className="flex items-center justify-between cursor-pointer py-2"
                             onClick={() => toggleSection("price")}
                         >
-                            <h3 className="font-semibold text-[#a790d4]">Price</h3>
+                            <div className="flex items-center gap-2">
+                                <h3 className="font-semibold text-[#a790d4]">Price</h3>
+                                {getFilterCount('price') > 0 && (
+                                    <span className="bg-[#ab91df] text-white px-2 py-0.5 rounded-full text-xs">
+                                        {getFilterCount('price')}
+                                    </span>
+                                )}
+                            </div>
                             <svg
-                                className={`w-4 h-4 transition-transform ${expandedSections.includes("price") ? "rotate-180" : ""
-                                    }`}
+                                className={`w-4 h-4 transition-transform ${expandedSections.includes("price") ? "rotate-180" : ""}`}
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
@@ -253,10 +268,16 @@ const CollectionSidebar = ({
                                 className="flex items-center justify-between cursor-pointer py-2"
                                 onClick={() => toggleSection("productTypes")}
                             >
-                                <h3 className="font-semibold text-[#a790d4]">Product type</h3>
+                                <div className="flex items-center gap-2">
+                                    <h3 className="font-semibold text-[#a790d4]">Product type</h3>
+                                    {getFilterCount('productTypes') > 0 && (
+                                        <span className="bg-[#ab91df] text-white px-2 py-0.5 rounded-full text-xs">
+                                            {getFilterCount('productTypes')}
+                                        </span>
+                                    )}
+                                </div>
                                 <svg
-                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("productTypes") ? "rotate-180" : ""
-                                        }`}
+                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("productTypes") ? "rotate-180" : ""}`}
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -273,7 +294,7 @@ const CollectionSidebar = ({
                                                     type="checkbox"
                                                     id={option.id}
                                                     className="w-4 h-4 text-[#ab91df] border-gray-300 rounded focus:ring-[#ab91df]"
-                                                    checked={selectedFilters.productTypes?.includes(option.value) || false}
+                                                    checked={isFilterSelected('productTypes', option.value)}
                                                     onChange={(e) => handleFilterChange('productTypes', option.value, e.target.checked)}
                                                 />
                                                 <label htmlFor={option.id} className="ml-2 text-sm text-[#3c3c3c]">
@@ -294,10 +315,16 @@ const CollectionSidebar = ({
                                 className="flex items-center justify-between cursor-pointer py-2"
                                 onClick={() => toggleSection("brands")}
                             >
-                                <h3 className="font-semibold text-[#a790d4]">Brand</h3>
+                                <div className="flex items-center gap-2">
+                                    <h3 className="font-semibold text-[#a790d4]">Brand</h3>
+                                    {getFilterCount('brands') > 0 && (
+                                        <span className="bg-[#ab91df] text-white px-2 py-0.5 rounded-full text-xs">
+                                            {getFilterCount('brands')}
+                                        </span>
+                                    )}
+                                </div>
                                 <svg
-                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("brands") ? "rotate-180" : ""
-                                        }`}
+                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("brands") ? "rotate-180" : ""}`}
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -314,7 +341,7 @@ const CollectionSidebar = ({
                                                     type="checkbox"
                                                     id={option.id}
                                                     className="w-4 h-4 text-[#ab91df] border-gray-300 rounded focus:ring-[#ab91df]"
-                                                    checked={selectedFilters.brands?.includes(option.value) || false}
+                                                    checked={isFilterSelected('brands', option.value)}
                                                     onChange={(e) => handleFilterChange('brands', option.value, e.target.checked)}
                                                 />
                                                 <label htmlFor={option.id} className="ml-2 text-sm text-[#3c3c3c]">
@@ -335,10 +362,16 @@ const CollectionSidebar = ({
                                 className="flex items-center justify-between cursor-pointer py-2"
                                 onClick={() => toggleSection("colors")}
                             >
-                                <h3 className="font-semibold text-[#a790d4]">Color</h3>
+                                <div className="flex items-center gap-2">
+                                    <h3 className="font-semibold text-[#a790d4]">Color</h3>
+                                    {getFilterCount('colors') > 0 && (
+                                        <span className="bg-[#ab91df] text-white px-2 py-0.5 rounded-full text-xs">
+                                            {getFilterCount('colors')}
+                                        </span>
+                                    )}
+                                </div>
                                 <svg
-                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("colors") ? "rotate-180" : ""
-                                        }`}
+                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("colors") ? "rotate-180" : ""}`}
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -355,7 +388,7 @@ const CollectionSidebar = ({
                                                     type="checkbox"
                                                     id={option.id}
                                                     className="w-4 h-4 text-[#ab91df] border-gray-300 rounded focus:ring-[#ab91df]"
-                                                    checked={selectedFilters.colors?.includes(option.value) || false}
+                                                    checked={isFilterSelected('colors', option.value)}
                                                     onChange={(e) => handleFilterChange('colors', option.value, e.target.checked)}
                                                 />
                                                 <label htmlFor={option.id} className="ml-2 text-sm text-[#3c3c3c]">
@@ -376,10 +409,16 @@ const CollectionSidebar = ({
                                 className="flex items-center justify-between cursor-pointer py-2"
                                 onClick={() => toggleSection("designs")}
                             >
-                                <h3 className="font-semibold text-[#a790d4]">Design</h3>
+                                <div className="flex items-center gap-2">
+                                    <h3 className="font-semibold text-[#a790d4]">Design</h3>
+                                    {getFilterCount('designs') > 0 && (
+                                        <span className="bg-[#ab91df] text-white px-2 py-0.5 rounded-full text-xs">
+                                            {getFilterCount('designs')}
+                                        </span>
+                                    )}
+                                </div>
                                 <svg
-                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("designs") ? "rotate-180" : ""
-                                        }`}
+                                    className={`w-4 h-4 transition-transform ${expandedSections.includes("designs") ? "rotate-180" : ""}`}
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -396,7 +435,7 @@ const CollectionSidebar = ({
                                                     type="checkbox"
                                                     id={option.id}
                                                     className="w-4 h-4 text-[#ab91df] border-gray-300 rounded focus:ring-[#ab91df]"
-                                                    checked={selectedFilters.designs?.includes(option.value) || false}
+                                                    checked={isFilterSelected('designs', option.value)}
                                                     onChange={(e) => handleFilterChange('designs', option.value, e.target.checked)}
                                                 />
                                                 <label htmlFor={option.id} className="ml-2 text-sm text-[#3c3c3c]">

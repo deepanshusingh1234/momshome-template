@@ -42,7 +42,7 @@ const FeaturedProducts = () => {
                                     </h3>
                                     <Link
                                         href={product.link}
-                                        className="inline-block px-8 py-3 bg-[#6cad96] text-white font-semibold uppercase text-sm rounded-full hover:bg-[#5b9a82] transition-colors"
+                                        className="inline-block px-8 py-3 bg-[#ab91df] text-white font-semibold uppercase text-sm rounded-full hover:bg-[#ab91df] transition-colors"
                                     >
                                         {product.buttonText}
                                     </Link>

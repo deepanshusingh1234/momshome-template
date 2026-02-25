@@ -104,13 +104,13 @@ export default function StickyAddToCart({
                                         <button
                                             type="button"
                                             onClick={() => onQuantityChange("decrement")}
-                                            className="minus btn-quantity px-2 py-1 text-gray-600 hover:bg-gray-100"
+                                            className="minus btn-quantity w-8 h-8 flex items-center justify-center text-gray-600 hover:bg-gray-100"
                                         >
                                             <span className="sr-only">Decrease quantity</span>
-                                            <span className="block w-3 h-3">−</span>
+                                            <span className="text-lg leading-none">−</span>
                                         </button>
                                         <input
-                                            className="form-input quantity__input w-12 text-center py-1 text-sm"
+                                            className="form-input quantity__input w-12 h-8 text-center py-1 text-sm border-x border-gray-300"
                                             type="number"
                                             min="1"
                                             value={quantity}
@@ -119,10 +119,10 @@ export default function StickyAddToCart({
                                         <button
                                             type="button"
                                             onClick={() => onQuantityChange("increment")}
-                                            className="plus btn-quantity px-2 py-1 text-gray-600 hover:bg-gray-100"
+                                            className="plus btn-quantity w-8 h-8 flex items-center justify-center text-gray-600 hover:bg-gray-100"
                                         >
                                             <span className="sr-only">Increase quantity</span>
-                                            <span className="block w-3 h-3">+</span>
+                                            <span className="text-lg leading-none">+</span>
                                         </button>
                                     </div>
                                 </div>
