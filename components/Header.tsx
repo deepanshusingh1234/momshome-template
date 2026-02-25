@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useCart } from "@/context/CartContext";
 import headerData from "../data/header-nav.json";
-import { HeaderData, NavItem, Link as LinkType, Column, Section } from "../types/header";
+import type { HeaderData, NavItem, Link as LinkType, Column, Section } from "../types/header";
 import MainLogin from "@/components/auth/MainLogin";
 
 const Header = () => {
@@ -233,9 +233,9 @@ const Header = () => {
                             {data.navItems.map((item: NavItem) => {
                                 if (item.type === 'link') {
                                     return (
-                                        <NavItem key={item.id} href={item.url || '#'}>
+                                        <NavItemComponent key={item.id} href={item.url || '#'}>
                                             {item.title}
-                                        </NavItem>
+                                        </NavItemComponent>
                                     );
                                 } else if (item.type === 'mega-menu') {
                                     return (
@@ -481,7 +481,7 @@ const getCollectionUrl = (url: string) => {
 };
 
 // Helper Components
-const NavItem = ({ href, children }: { href: string; children: React.ReactNode }) => (
+const NavItemComponent = ({ href, children }: { href: string; children: React.ReactNode }) => (
     <li>
         <Link
             href={href}
