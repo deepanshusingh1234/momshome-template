@@ -283,8 +283,8 @@ export default function ProductReviews({ productId, productTitle, productImage }
                                             />
                                         </div>
                                         <p className="text-xs text-gray-500 mb-4">
-                                            How we use your data: We'll only contact you about the review you left, and only if necessary.
-                                            By submitting your review, you agree to Judge.me's terms, privacy and content policies.
+                                            How we use your data: We&apos;ll only contact you about the review you left, and only if necessary.
+                                            By submitting your review, you agree to Judge.me&apos;s terms, privacy and content policies.
                                         </p>
                                     </>
                                 )}

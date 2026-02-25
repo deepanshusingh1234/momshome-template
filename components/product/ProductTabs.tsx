@@ -22,8 +22,8 @@ export default function ProductTabs({ activeTab, onTabChange }: ProductTabsProps
                                 <button
                                     key={tab.id}
                                     className={`py-2.5 lg:py-2 px-4 lg:px-4 text-xs lg:text-sm font-medium whitespace-nowrap transition-colors ${activeTab === tab.id
-                                            ? "border-b-2 border-[#ab91df] text-[#ab91df]"
-                                            : "text-gray-600 hover:text-gray-900"
+                                        ? "border-b-2 border-[#ab91df] text-[#ab91df]"
+                                        : "text-gray-600 hover:text-gray-900"
                                         }`}
                                     onClick={() => onTabChange(tab.id)}
                                 >
@@ -43,7 +43,7 @@ export default function ProductTabs({ activeTab, onTabChange }: ProductTabsProps
                                         100x100 cm - Made from premium Organic cotton muslin which is breathable,
                                         prewashed, ultra-soft, and gets softer with every wash. This organic
                                         muslin is free from harmful colour chemicals, Safe and irritant-free for
-                                        your baby's most sensitive and tender skin. It comes with beautiful
+                                        your baby&apos;s most sensitive and tender skin. It comes with beautiful
                                         hand-block prints done with eco-friendly colours.
                                     </span>
                                 </p>
@@ -52,7 +52,7 @@ export default function ProductTabs({ activeTab, onTabChange }: ProductTabsProps
                                     <p className="leading-relaxed">
                                         <b className="font-semibold">Premium Organic Cotton Muslin Swaddle Set:</b> Made from the best quality
                                         organic cotton muslin, these swaddles are soft, breathable, and gentle on
-                                        your baby's skin. Sized at 100x100 cm, they offer ample coverage for snug
+                                        your baby&apos;s skin. Sized at 100x100 cm, they offer ample coverage for snug
                                         comfort.
                                     </p>
 

@@ -17,7 +17,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 66,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     },
     {
         id: 9964140101913,
@@ -29,7 +30,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 50,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     },
     {
         id: 10216733933849,
@@ -41,7 +43,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 50,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     },
     {
         id: 9491433521433,
@@ -53,7 +56,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 50,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     },
     {
         id: 10111217565977,
@@ -65,7 +69,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 50,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     },
     {
         id: 9681420517657,
@@ -77,7 +82,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 29,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     },
     {
         id: 6747839103061,
@@ -89,7 +95,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 62,
         rating: 4.92,
-        reviewCount: 12
+        reviewCount: 12,
+        sku: ""
     },
     {
         id: 9477357601049,
@@ -101,7 +108,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 14,
         rating: 5.0,
-        reviewCount: 1
+        reviewCount: 1,
+        sku: ""
     },
     {
         id: 9491415892249,
@@ -113,7 +121,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 50,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     },
     {
         id: 9515084874009,
@@ -125,7 +134,8 @@ const relatedProducts: CollectionProduct[] = [
         available: true,
         discount: 14,
         rating: 0,
-        reviewCount: 0
+        reviewCount: 0,
+        sku: ""
     }
 ];
 
