@@ -61,4 +61,5 @@ export interface CollectionData {
     products: CollectionProduct[];
 }
 
-export type CategoryKey = 'muslin-swaddle' | 'muslin-towels' | 'jhabla-tshirts' | 'muslin-dohar-and-blankets' | 'baby-quilts' | 'hospital-bags' | 'new-arrivals' | 'sale' | 'buy-1-get-1';
+export type CategoryKey = 'muslin-swaddle' | 'muslin-towels' | 'jhabla-tshirts' | 'muslin-dohar-and-blankets' | 'baby-quilts' | 'hospital-bags' | 'new-arrivals' | 'sale' | 'buy-1-get-1' | 'nappies'
+    | 'trending';
