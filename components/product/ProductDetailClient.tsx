@@ -30,7 +30,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
             price: product.price,
             compare_at_price: product.compare_at_price,
             available: product.available,
-            sku: product.sku || "",
+            sku: "",
         }
     );
     const [quantity, setQuantity] = useState(1);

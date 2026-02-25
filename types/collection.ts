@@ -30,6 +30,7 @@ export interface ProductVariant {
 }
 
 export interface CollectionProduct {
+    sku: string;
     id: number;
     handle: string;
     title: string;
