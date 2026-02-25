@@ -61,7 +61,7 @@ const Footer = () => {
                                     <div className="footer-block__details">
                                         <div className="image_logo mb-0">
                                             <Image
-                                                src="//www.momshome.in/cdn/shop/files/moms_logo-01_200x.svg?v=1736325707"
+                                                src="https://www.momshome.in/cdn/shop/files/moms_logo-01_200x.svg?v=1736325707"
                                                 alt="Moms Home"
                                                 width={200}
                                                 height={120}
